@@ -1,0 +1,564 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{amsmath,amssymb,bm,mathtools}
+\usepackage{accents}
+\usepackage[utf8]{inputenc} 
+\usepackage[T1]{fontenc}
+
+\title{SBM con attributi misti: Variational EM}
+\author{}
+\date{}
+
+\begin{document}
+\maketitle
+
+\section{Modello e verosimiglianza}
+Si considera un un network non diretto di $n$ nodi caratterizzati da attributi continui e categorici. I nodi si assumono associati a $K$ blocchi (communities). \\
+\begin{itemize}
+\item[-] Variabili latenti $Z_i\in\{1,\dots,K\}$ con $p(Z_i=k)=\pi_k$, $\sum_k\pi_k=1$ che rappresentano il blocco di appartenenza del nodo $i$. \\
+%Per $i<j$:
+%\[
+%p(A_{ij}=1\mid z_i=k,z_j=\ell)=\theta_{k\ell},\quad \theta_{k\ell}=\theta_{\ell k}\in(0,1).
+%\]
+\item[-] Network non diretto: $A_{ij} \mid Z_i=k,Z_j=\ell\sim\mathcal{B}(\theta_{k\ell}) \quad A_{ij}=\{0,1\} \quad \theta_{k\ell}=\theta_{\ell k}\in(0,1)$. $
+\theta_{k\ell}=p(A_{ij}=1  \mid Z_i=k,Z_j=\ell),
+\qquad
+\forall \ i<j
+$
+\item[-] Attributi dei nodi (continui gaussiani e categorici multinomiali): $X_i=(X_i^{(g)},X_i^{(c)})$, con $X_i^{(g)}\mid Z_i=k\sim\mathcal{N}(\mu_k,\Sigma_k)$ e
+$X^{(c)}_{im}\mid Z_i=k\sim\mathcal{MN}(\phi_{km})$.
+\end{itemize}
+
+Per ogni attributo categorico $m \in \{1,\dots,M\}$, si indica con $C_m$ il numero di categorie possibili. 
+Il valore osservato del nodo $i$ per l'attributo $m$ è $x_{im} \in \{1,2,\dots,C_m\}$.
+\[
+\phi_{k m c} = p( X^{(c)}_{im} = c \mid Z_i = k),
+\qquad
+c = 1,\dots,C_m,
+\]
+
+\noindent Parametri: $\Theta=\{\pi,\theta,\{\mu_k,\Sigma_k\}_k,\{\phi_{km}\}_{k,m}\}$, $m\in\{1,\dots,M\}$ e $k\in\{1,\dots,K\}$.\\
+I parametri in $\Theta$ sono vettoriali, dipendenti da $k$ per gli attributi.\\
+
+In sintesi il modello generativo risulta:
+\[
+Z_i \sim \text{Categorical}(\pi_1,\dots,\pi_K),
+\]
+\[
+A_{ij} \mid (Z_i=k,Z_j=l) \sim \text{Bernoulli}(\theta_{kl}),
+\]
+\[
+X^{(g)}_i \mid Z_i=k \sim \mathcal{N}(\mu_k,\Sigma_k),
+\]
+\[
+X^{(c)}_{im} \mid Z_i=k \sim \text{Categorical}(\phi_{km1},\dots,\phi_{kmC_m}).
+\]
+
+%Pertanto, l'espressione
+%\[
+%\phi_{k m,\, x_{im}}
+%\]
+%indica la probabilità, sotto il modello, che un nodo appartenente al blocco $k$ assuma il valore \emph{osservato} $x_{im}$ per l'attributo $m$.
+La verosimiglianza completa risulta:
+\begin{eqnarray*}
+p(A,X,Z\mid\Theta)&=&p(Z\mid \Theta)p(A\mid Z,\Theta)p(X\mid Z,\Theta)\\
+&=&
+\Big(\prod_{i=1}^n \pi_{z_i}\Big)
+\Big(\prod_{i<j}\theta_{z_iz_j}^{A_{ij}}(1-\theta_{z_iz_j})^{1-A_{ij}}\Big)
+\Big(\prod_{i=1}^n \mathcal{N}(x_i^{(g)};\mu_{z_i},\Sigma_{z_i})\Big)
+\Big(\prod_{i=1}^n\prod_{m,c}\phi_{z_i m c}^{\mathbf{1}[x_{im}=c]}\Big).
+\end{eqnarray*}
+
+\section{Log-verosimiglianza}
+Si ha:
+
+\[
+\log p(A,X,Z\mid\Theta)
+= \log p(Z)+ \log p(A \mid Z) + \log p(X^{(g)} \mid Z)
++ \log p(X^{(c)} \mid Z).
+\]
+\begin{align}
+\log p(A,X,Z\mid\Theta)
+&=\sum_i\log \pi_{z_i}+\sum_{i<j}\big[A_{ij}\log\theta_{z_i z_j}+(1-A_{ij})\log(1-\theta_{z_i z_j})\big]
++\nonumber\\
+&\quad+\sum_i \log \mathcal{N}(x_i^{(g)};\mu_{z_i},\Sigma_{z_i})
++\sum_{i,m,c}\mathbf{1}[x_{im}=c]\log \phi_{z_i m c}.
+\label{eq:logjoint}
+\end{align}
+
+\section{Decomposizione ELBO--KL}
+Sia $q(Z)=p_q( Z)$ una distribuzione di probabilità su $Z$.
+
+\begin{align}
+\log p(A,X\mid\theta)
+&=\log \sum_Z p(A,X,Z\mid \Theta) \label{eq:elbo1}\\
+&=\log \sum_Z q(Z)\,\frac{p(A,X,Z\mid\Theta)}{q(Z)} \label{eq:elbo2}\\
+&\ge \sum_Z q(Z)\,\log \frac{p(A,X,Z\mid\Theta)}{q(Z)} \quad\text{(Jensen)} \label{eq:elbo3}\\
+&=\underbrace{\sum_Z q(Z)\,\log p(A,X,Z\mid\Theta)}_{\mathbb{E}_q[\log p(A,X,Z\mid\Theta)]}
+-\underbrace{\sum_Z q(Z)\,\log q(Z)}_{\mathbb{E}_q[\log q(Z)]}\\
+&=: \;\mathcal{L}(q,\Theta). \label{eq:elbo4}
+\end{align}
+
+Si ha $p(A,X,Z\mid \Theta)=p(Z\mid A,X,\Theta)\,p(A,X\mid\Theta)$.
+\begin{align}
+\mathcal{L}(q,\Theta)
+&=\mathbb{E}_q[\log p(Z\mid A,X,\Theta)]+\log p(A,X\mid\Theta)-\mathbb{E}_q[\log q(Z)] \label{eq:elbo5}\\
+&=\log p(A,X\mid\Theta)-\mathrm{KL}\!\big(q(Z)\,\|\,p(Z\mid A,X,\Theta)\big)
+\label{eq:elbo7}
+\end{align}
+indicando con KL la Kullback Leibler divergence.
+Quindi
+\[
+\ \log p(A,X\mid\Theta)=\mathcal{L}(q,\Theta)+\mathrm{KL}\!\big(q(Z)\,\|\,p(Z\mid A,X,\Theta)\big)\ \ge \mathcal{L}(q,\Theta).
+\]
+$ \mathcal{L}(q,\Theta)$ è un \emph{lower bound} (Evidence Lower BOund ELBO$(q,\Theta)$) per $\log p(A,X\mid\theta)$.
+
+\section{ELBO (Evidence Lower BOund) generale e assunzione mean-field}
+Indicando $r_{ik}=p_q(Z_i=k)$ e $r_{ij}^{k\ell}=p_q(Z_i=k,Z_j=\ell)$:
+\begin{align*}
+\mathcal{L}(r,\Theta)=
+&\sum_i\sum_k r_{ik}\log \pi_k
++\sum_{i<j}\sum_{k,\ell} r_{ij}^{k\ell}[A_{ij}\log\theta_{k\ell}+(1-A_{ij})\log(1-\theta_{k\ell})]\\
+&+\sum_i\sum_k r_{ik}\log \mathcal{N}(x_i^{(g)};\mu_k,\Sigma_k)
++\sum_i\sum_k r_{ik}\sum_m \log \phi_{k m,\,x_{im}}
+-\sum_i\sum_k r_{ik}\log r_{ik}.
+\end{align*}
+Sotto l'ipotesi \emph{mean-field} $q(Z)=\prod_i q_i(Z_i)$, $q_i(Z_i=k)=r_{ik}$, si ha $r_{ij}^{k\ell}=r_{ik}r_{j\ell}$ e
+\begin{align*}
+\mathcal{L}(r,\Theta)
+&=\sum_i\sum_k r_{ik}\log \pi_k+\sum_{i<j}\sum_{k,\ell} r_{ik}r_{j\ell}[A_{ij}\log\theta_{k\ell}+(1-A_{ij})\log(1-\theta_{k\ell})]\nonumber\\
+&+\sum_i\sum_k r_{ik}\log \mathcal{N}(x_i^{(g)};\mu_k,\Sigma_k)
++\sum_i\sum_k r_{ik}\sum_m \log \phi_{k m,\,x_{im}}
+-\sum_i\sum_k r_{ik}\log r_{ik}.
+\label{eq:ELBO}
+\end{align*}
+
+
+
+\section{E-step}
+
+
+%La verosimiglianza della rete non diretta si scrive come
+%\[
+%p(A \mid Z, \theta) \;=\; 
+%\prod_{1 \leq i < j \leq n} 
+%\theta_{z_i z_j}^{A_{ij}} (1-\theta_{z_i z_j})^{1-A_{ij}}.
+%\]
+
+%Prendendo il logaritmo,
+%\[
+%\log p(A \mid Z, \theta)
+%= \sum_{1 \leq i < j \leq n}
+%\Big[ A_{ij} \log \theta_{z_i z_j} + (1-A_{ij}) \log (1-\theta_{z_i z_j}) \Big].
+%\]
+
+Si considerano le derivate dell'ELBO rispetto a $r_{ik}$. \\
+Il contributo all'ELBO del nodo $i$ risulta:
+\[
+\mathcal{L}(r,\Theta)_i=\sum_k r_{ik}\psi_{ik}-\sum_k r_{ik}\log r_{ik},
+\]
+con
+\[
+\psi_{ik}=\log \pi_k+\sum_{j\ne i}\sum_\ell r_{j\ell}\big[A_{ij}\log\theta_{k\ell}+(1-A_{ij})\log(1-\theta_{k\ell})\big]
++\log \mathcal{N}(x_i^{(g)};\mu_k,\Sigma_k)+\sum_m \log \phi_{k m,\,x_{im}}.\]
+Tenedo conto del vincolo $\sum_k r_{ik}=1$ la funzione da massimizzare risulta:
+\[
+\mathcal{L}(r,\Theta)_i=\sum_k r_{ik}\psi_{ik}-\sum_k r_{ik}\log r_{ik} +\lambda_i\sum_k (r_{ik}-1).
+\]
+
+Si ottiene:
+\[
+\frac{\partial \mathcal{L}(r,\Theta)_i}{\partial r_{ik}}=\psi_{ik}-\log r_{ik}-1+\lambda_i=0
+\ \Rightarrow\
+r_{ik}=\frac{e^{\psi_{ik}}}{\sum_u e^{\psi_{iu}}}.
+\]
+Si osserva che nel calcolo del valore atteso rispetto alla distribuzione variazionale $q(Z)$
+compare il termine
+\[
+\mathbb{E}_q[\log p(A \mid Z, \Theta)]
+= \sum_{i < j} 
+\sum_{k=1}^K \sum_{l=1}^K
+r_{ik} r_{jl} \Big[ A_{ij} \log \theta_{kl} + (1-A_{ij}) \log (1-\theta_{kl}) \Big].
+\]
+
+Si fissa un nodo $i$ e si calcola la derivata dell'ELBO rispetto a $r_{ik}$.
+I soli termini che restano sono quelli in cui compare $r_{ik}$.
+Questi corrispondono a tutte le coppie $(i,j)$ con $j \neq i$:
+\[
+\frac{\partial}{\partial r_{ik}}
+\mathbb{E}_q[\log p(A \mid Z, \Theta)]
+= \sum_{j \neq i} \sum_{l=1}^K
+r_{jl} \Big[ A_{ij} \log \theta_{kl} + (1-A_{ij}) \log (1-\theta_{kl}) \Big].
+\]
+
+Dunque, mentre nella verosimiglianza globale la somma è su $i<j$ per evitare
+il doppio conteggio degli archi, nella derivata rispetto al singolo nodo $i$
+si ottiene naturalmente una somma su \emph{tutti gli altri nodi}, cioè $j \neq i$.
+
+
+%Hessiana (in $r_{i\cdot}$): $\partial^2\mathcal{J}_i/\partial r_{ik}\partial r_{iu}=-\delta_{ku}/r_{ik}$ (concava).
+
+\section{M-step}
+\paragraph{Mixing.} $N_k=\sum_i r_{ik}$.
+\[
+\ \pi_k=\frac{N_k}{n}\ .
+\]
+\paragraph{Network}
+\[
+\ \theta_{k\ell}=\frac{\sum_{i<j} r_{ik}r_{j\ell}A_{ij}}{\sum_{i<j} r_{ik}r_{j\ell}}\ .
+\]
+\paragraph{Attributi continui gaussiani ($x_i\equiv x_i^{(g)}$).}
+\[
+\ \mu_k=\frac{1}{N_k}\sum_i r_{ik}x_i,\qquad
+\Sigma_k=\frac{1}{N_k}\sum_i r_{ik}(x_i-\mu_k)(x_i-\mu_k)^\top\ .
+\]
+\paragraph{Attributi categorici multinomiali ($x_i\equiv x_i^{(c)}$).}
+\[
+\ \phi_{kmc}=\frac{\sum_i r_{ik}\mathbf{1}[x_{im}=c]}{N_k}\ .
+\]
+
+\section{Derivata in $\pi_k$}
+Il termine dell'ELBO relativo al Mixing è:\\
+\[\mathcal{L}_{mix}(\Theta)=\sum_i \sum_k r_{ik}\log \pi_k=\sum_k N_k\log\pi_k.\]
+La Lagrangiana risulta:
+\[\sum_k N_k\log\pi_k+\lambda(\sum_k\pi_k-1).\]
+
+Derivando la Lagrangiana rispetto a $\pi_k$ e $\lambda$ si ottiene:
+\[\pi_k=\frac{N_k}{\sum_k N_k}=\frac{N_k}{n}.\]
+
+\section{Derivata in $\theta_{kl}$}
+
+Il termine dell'ELBO relativo al Network è:
+\[
+\mathcal{L}_{\text{net}}(\Theta)
+= \mathbb{E}_q\!\big[\log p(A\mid Z,\Theta)\big]
+= \sum_{i<j}\sum_{k,\ell} r_{ik} r_{j\ell}\,\Big[
+A_{ij}\log\theta_{k\ell} + (1-A_{ij})\log(1-\theta_{k\ell})
+\Big].
+\]
+
+\noindent Fissati $k,\ell$, si definiscono:
+\[
+C_{k\ell} := \sum_{i<j} (r_{ik}r_{j\ell}+r_{i\ell}r_{jk})\,A_{ij},
+\qquad
+W_{k\ell} := \sum_{i<j} (r_{ik}r_{j\ell}+r_{i\ell}r_{jk}),
+\]
+Allora, ricordando che $\theta_{k\ell} = \theta_{\ell k},$
+\[
+\mathcal{L}_{\text{net}}(\Theta)
+= \sum_{k\leq \ell}\Big[
+C_{k\ell}\log\theta_{k\ell} + (W_{k\ell}-C_{k\ell})\log(1-\theta_{k\ell})
+\Big].
+\]
+
+Per ogni coppia $(k,\ell)$, si ottiene:
+\[
+\frac{\partial \mathcal{L}_{\text{net}}}{\partial \theta_{k\ell}}
+= \frac{C_{k\ell}}{\theta_{k\ell}} - \frac{W_{k\ell}-C_{k\ell}}{1-\theta_{k\ell}}.
+\]
+Imponendo $\partial \mathcal{L}_{\text{net}}/\partial \theta_{k\ell}=0$ si ottiene
+\[
+C_{k\ell}(1-\theta_{k\ell})=(W_{k\ell}-C_{k\ell})\theta_{k\ell}
+\;\;\Longleftrightarrow\;\;
+C_{k\ell}=W_{k\ell}\theta_{k\ell}
+\;\;\Longrightarrow\;\;
+\;\theta_{k\ell} \;=\; \frac{C_{k\ell}}{W_{k\ell}} \;, \; k \leq \ell.
+\]
+%Quindi $\theta_{k\ell}$ è la proporzione (pesata da $r_{ik}r_{j\ell}$) di archi osservati tra le classi $k$ e $\ell$.
+
+\paragraph{Nota.} Se il network è diretto ($\theta_{k\ell}\ne\theta_{\ell k}$), il contributo all'ELBO è
+\[
+\mathcal{L}_{\text{net}}(\Theta)
+= \sum_{i\neq j}\sum_{k,\ell} r_{ik} r_{j\ell}\Big[
+A_{ij}\log\theta_{k\ell} + (1-A_{ij})\log(1-\theta_{k\ell})
+\Big],
+\]
+da cui, con ragionamento identico, si ottiene:
+\[
+\theta_{k\ell}=\frac{\sum_{i\neq j} r_{ik}r_{j\ell}A_{ij}}{\sum_{i\neq j} r_{ik}r_{j\ell}}.
+\]
+
+
+\section{Derivata in $\mu_k$, $\Sigma_k$}
+Per il blocco $k$ (fissato), denotiamo $x_i\equiv x_i^{(g)}\in\mathbb{R}^{d_g}$ (con  $d_g$ dimensione della Normale multivariata e $r_{ik}=q(z_i{=}k)$. Il contributo gaussiano all'ELBO è:
+
+\[
+H_k(\mu_k,\Sigma_k)
+= \sum_i r_{ik}\log \mathcal{N}(x_i;\mu_k,\Sigma_k)
+= -\tfrac12\sum_i r_{ik}\Big[d_g\log(2\pi) + \log|\Sigma_k| + (x_i-\mu_k)^\top \Sigma_k^{-1} (x_i-\mu_k)\Big].
+\]
+Dall'identità 
+\[
+\frac{\partial}{\partial \mathbf{x}}\,\mathbf{x}^\top A \mathbf{x}= 2 A \mathbf{x}
+\]
+segue che
+\[
+\frac{\partial H_k}{\partial \mu_k}
+=\Sigma_k^{-1}\Big(\sum_i r_{ik}(x_i-\mu_k)\Big).
+\]
+Ponendo $\frac{\partial H_k}{\partial \mu_k} = 0$, si ottiene
+\[
+\mu_k=\frac{\sum_i r_{ik}x_i}{N_k}.
+\]
+
+%\section{Derivata in $S=\Sigma^{-1}$}
+
+%\[
+%H_k(\mu_k,\Sigma_k)
+%= \sum_i r_{ik}\log \mathcal{N}(x_i;\mu_k,\Sigma_k)
+%= -\tfrac12\sum_i r_{ik}\Big[\log(2\pi) + \log|\Sigma_k| + (x_i-\mu_k)^\top \Sigma_k^{-1} (x_i-\mu_k)\Big].
+%\]
+\noindent Sia ora \(S:=\Sigma_k^{-1}\) e consideriamo $H_k$ come funzione di $\mu_k$ e $S$. Poiché \(\log|\Sigma_k| = -\log|S|\), si ottiene
+\[
+H_k(\mu_k,S)
+= -\tfrac12\sum_i r_{ik}\Big[d_g\log(2\pi) - \log|S| + (x_i-\mu_k)^\top S (x_i-\mu_k)\Big].
+\]\\
+Definiamo le quantità aggregate
+\[
+R_k := \sum_i r_{ik}, 
+\qquad
+C_k := \sum_i r_{ik}\,(x_i-\mu_k)(x_i-\mu_k)^\top.
+\]
+Usando l'identità $\mathbf{x}^\top A \mathbf{x} = \mathrm{tr}\big(A \mathbf{x} \mathbf{x}^\top\big)$ e il fatto che la traccia è un operatore lineare, si ha
+\[
+H_k(\mu_k,S) = -\tfrac12\Big[d_g R_k\log(2\pi) - R_k\log|S| + \mathrm{tr}(S C_k)\Big].\,
+\]
+
+
+%Ricordiamo l'espressione compatta:
+%\[
+%H_k(\mu_k,S) \;=\; -\tfrac12\Big[\, R_k d_g\log(2\pi) - R_k \log|S| + \mathrm{tr}(S C_k) \,\Big],
+%\]
+%dove $R_k=\sum_i r_{ik}$ e $C_k=\sum_i r_{ik}(x_i-\mu_k)(x_i-\mu_k)^\top$.
+
+%\noindent \textit{Derivata di $-R_k \log|S|$.}
+\noindent Dall'identit\`a 
+\[
+\frac{\partial}{\partial A}\,\log|A| = (A^{-1})^\top
+\] e dal fatto che $S$ è simmetrica (e dunque anche $S^{-1})$, risulta
+\[
+\frac{\partial}{\partial S}\,[-R_k \log|S|] = -R_k S^{-1}.
+\]
+
+\noindent Vale inoltre l'identità
+\[
+\frac{\partial}{\partial A}\,\mathrm{tr}(A B) = B^\top
+\]
+da cui segue, essendo $C_k^\top=C_k$,
+
+\[
+\frac{\partial H_k}{\partial S}
+= -\tfrac12\Big[ -R_k S^{-1} + C_k \Big]
+= \tfrac12\big(R_k S^{-1} - C_k\big).
+\]
+
+\noindent La condizione $\frac{\partial H_k}{\partial S} = 0$ implica dunque:
+\[
+R_k S^{-1} - C_k = 0
+\quad\Longrightarrow\quad
+S^{-1} = \frac{1}{R_k}C_k
+\quad\Longrightarrow\quad
+\Sigma_k = \frac{C_k}{R_k}.
+\]
+
+\section{Derivata in $\phi_{kmc}$}
+
+Fissato un blocco $k$, il contributo degli attributi categorici all'ELBO è 
+
+\[ \sum_i  r_{ik} \sum_m \log \phi_{km, x_{im}} = 
+\sum_i  r_{ik} \sum_m \sum_c \mathbf{1}\{x_{im}=c\}\log\phi_{kmc}\]
+Scrivendo $N_{kmc}:= \sum_i r_{ik}\mathbf{1}\{x_{im} = c\}$ e fissando $m \in \{1,\dots,M\}$, il contributo diventa
+\[
+\sum_{c=1}^{C_m} N_{kmc}\log\phi_{kmc}.
+\]
+La Lagrangiana si scrive dunque come 
+\[
+L(\phi_{kmc},\lambda) = \sum_{c=1}^{C_m} N_{kmc}\log\phi_{kmc} + \lambda\big(\sum_c \phi_{kmc}-1\big)
+\]
+e, imponendo $\frac{\partial L}{\partial \phi_{kmc}} = 0$, si ottiene
+\[\phi_{kmc} = \frac{N_{kmc}}{\sum_c N_{kmc}} = \frac{N_{kmc}}{N_k}\]
+
+
+\newpage
+\section*{Stochastic Block Model con attributi (K=3)}
+
+\subsection*{Setup}
+\begin{itemize}
+  \item Nodi $i=1,\dots,n$, blocchi $k \in \{1,2,3\}$.
+  \item Variabili latenti: $Z_i$, variational $r_{ik}=q(z_i=k)$, con $\sum_{k=1}^3 r_{ik}=1$.
+  \item Network non diretto: $A_{ij}\in\{0,1\}$, $i<j$.
+  \item Attributi:
+    \begin{itemize}
+      \item Continuo bidimensionale: $X_i^{g} \in \mathbb{R}^2$.
+      \item Categoriali: $X_i^{c_1} \in \{1,\dots,C_1\}$, $X_i^{c_2} \in \{1,\dots,C_2\}$.
+    \end{itemize}
+\end{itemize}
+
+\subsection*{Parametri}
+\begin{itemize}
+  \item Mixing: $\pi_k > 0$, con $\sum_{k=1}^3 \pi_k = 1$.
+  \item Network: $\theta = \{\theta_{kl}\}_{k,l=1}^3$, con $\theta_{kl}=\theta_{lk}\in(0,1)$.
+  \item Gaussiano: $\mu_k \in \mathbb{R}^2$, $\Sigma_k \in \mathbb{R}^{2\times 2}$ p.d.
+  \item Categoriali: 
+    \[
+      \phi_k^{(c_1)} = (\phi^{(c_1)}_{k,1},\dots,\phi^{(c_1)}_{k,C_1}),\qquad
+      \phi_k^{(c_2)} = (\phi^{(c_2)}_{k,1},\dots,\phi^{(c_2)}_{k,C_2}).
+    \]
+\end{itemize}
+
+\subsection*{E--step}
+
+Per $i=1,\dots,n$ e $k=1,2,3$:
+\[
+\psi_{ik} =
+\log \pi_k
++ \sum_{j \ne i}\sum_{\ell=1}^3 r_{j\ell}\Big[
+A_{ij}\log \theta_{k\ell} + (1-A_{ij})\log(1-\theta_{k\ell})
+\Big]
++\log \mathcal{N}(\mathbf{x}_i^{g} \mid \mu_k,\Sigma_k)
++\log \phi^{(c_1)}_{k,\,x_i^{c_1}}
++\log \phi^{(c_2)}_{k,\,x_i^{c_2}}.
+\]
+
+Aggiornamento:
+\[
+r_{ik} = \frac{\exp(\psi_{ik})}{\exp(\psi_{i1})+\exp(\psi_{i2})+\exp(\psi_{i3})},
+\qquad k=1,2,3.
+\]
+
+\subsection*{M--step}
+
+\paragraph{Mixing}
+\[
+\pi_k = \frac{1}{n}\sum_{i=1}^n r_{ik}=\frac{N_k}{n}, \qquad k=1,2,3.
+\]
+
+\paragraph{Network}
+\begin{align*}
+\theta_{11} &= \frac{\sum_{i<j} r_{i1}r_{j1}\,A_{ij}}{\sum_{i<j} r_{i1}r_{j1}}, &
+\theta_{22} &= \frac{\sum_{i<j} r_{i2}r_{j2}\,A_{ij}}{\sum_{i<j} r_{i2}r_{j2}}, &
+\theta_{33} &= \frac{\sum_{i<j} r_{i3}r_{j3}\,A_{ij}}{\sum_{i<j} r_{i3}r_{j3}}, \\
+\theta_{12} &= \frac{\sum_{i<j}(r_{i1}r_{j2}+r_{i2}r_{j1})\,A_{ij}}
+                   {\sum_{i<j}(r_{i1}r_{j2}+r_{i2}r_{j1})}, &
+\theta_{13} &= \frac{\sum_{i<j}(r_{i1}r_{j3}+r_{i3}r_{j1})\,A_{ij}}
+                   {\sum_{i<j}(r_{i1}r_{j3}+r_{i3}r_{j1})}, &
+\theta_{23} &= \frac{\sum_{i<j}(r_{i2}r_{j3}+r_{i3}r_{j2})\,A_{ij}}
+                   {\sum_{i<j}(r_{i2}r_{j3}+r_{i3}r_{j2})}.
+\end{align*}
+
+\paragraph{Gaussiano sugli attributi continui}
+\[
+\mu_k = \frac{\sum_i r_{ik}\mathbf{x}_i^{g}}{\sum_i r_{ik}}, 
+\qquad
+\Sigma_k = \frac{\sum_i r_{ik}(\mathbf{x}_i^{g}-\mu_k)(\mathbf{x}_i^{g}-\mu_k)^\top}{\sum_i r_{ik}},
+\qquad k=1,2,3.
+\]
+
+\paragraph{Attributi categorici}
+Per $m \in \{c_1,c_2\}$ e $c=1,\dots,C_m$:
+\[
+\phi_{kmc} = 
+\frac{\sum_i r_{ik}\,\mathbf{1}\{x_i^{m}=c\}}{\sum_i r_{ik}},
+\qquad k=1,2,3.
+\]
+
+% \clearpage
+% \newpage
+% \section*{Variational Integrated Completed Likelihood (vICL)}
+
+% Un criterio utilizzato per la scelta del numero di community è il Variational Integrated Completed Likelihood (vICL). Si considera lo Stochastic Block Model (SBM) con:
+% \begin{itemize}
+%     \item[-] rete non diretta $A = (A_{ij})_{1 \le i < j \le n}$,
+%     \item[-] variabili latenti $Z_i \in \{1,\dots,K\}$,
+%     \item[-] attributi continui $X^{(g)}_i \in \mathbb{R}^{d_g}$,
+%     \item[-] attributi categorici $X^{(c)}_{im} \in \{1,\dots,C_m\}$, con $m = 1,\dots,M$.
+% \end{itemize}
+
+% Si ha:
+% \[
+% \log p(A,X,Z\mid\Theta)
+% = \log p(Z)+ \log p(A \mid Z) + \log p(X^{(g)} \mid Z)
+% + \log p(X^{(c)} \mid Z).
+% \]
+
+% \
+
+% Il modello contiene i seguenti parametri:
+
+% \begin{itemize}
+%     \item[-] Parametri di blocco $\pi_k$.
+% Poiché $\sum_k \pi_k = 1$, $df_\pi = K - 1.$
+
+
+%     \item[-] Parametri di rete $\theta$.
+% Per uno SBM non diretto, $\theta$ è simmetrica:
+% $
+% df_\theta = \frac{K(K+1)}{2}.
+% $
+
+%     \item[-] Attributi gaussiani.
+% Per ogni community:
+% $
+% \mu_k \in \mathbb{R}^{d_g},  \Sigma_k \in \mathbb{R}^{d_g \times d_g}$ è simmetrica. La covarianza ha
+% $
+% \frac{d_g(d_g+1)}{2}
+% $
+% parametri liberi. Totale per community:
+% $
+% df_{\text{(g)},k} = d_g + \frac{d_g(d_g+1)}{2}.
+% $
+
+%     \item[-] Attributi categorici.
+% Per ogni community, per l'attributo $m$ con $C_m$ categorie:
+% $
+% C_m - 1
+% $
+% parametri liberi. Totale su tutti gli attributi:
+% $
+% df_{\text{(c)},k} = \sum_{m=1}^M (C_m - 1).
+% $
+
+%     \item[-] Totale attributi:
+% $
+% df_{\text{attr}} = K\left(df_{\text{(g)},k} + df_{\text{(c)},k}\right).
+% $
+% \end{itemize}
+% In analogia al Bayesian Information Criterion BIC, l'Integrated Completed Likelihood (ICL) usa penalizzazioni basate sulla quantità di parametri.
+
+% \begin{itemize}
+%     \item[-] I parametri della matrice $\theta$ sono informati da tutte le coppie $(i,j)$:
+%     \[
+%     N_{\text{edges}} = \frac{n(n-1)}{2}.
+%     \]
+%     \item[-] I parametri $\pi_k$, $\mu_k$, $\Sigma_k$, $\phi_{km}$ sono informati dai nodi:
+%     \[
+%     N_{\text{nodes}} = n.
+%     \]
+% \end{itemize}
+
+% La penalizzazione è dunque:
+% \[
+% df_\Theta \log N_{\text{edges}}
+% + (df_\pi + df_{\text{attr}})\log n.
+% \]
+
+
+% Poiché:
+% \[
+% \log p(A,X\mid\Theta)=\mathcal{L}(q,\Theta)+\mathrm{KL}\!\big(q(Z)\,\|\,p(Z\mid A,X,\Theta)\big)=ELBO(q,\Theta)+\mathrm{KL}\!\big(q(Z)\,\|\,p(Z\mid A,X,\Theta)\big)
+% \]
+% si definisce il criterio vICL come:
+% \[
+% \text{vICL}(K) 
+% = -2\left(\text{ELBO}_{\text{last}}+ \mathrm{KL}\!\big(q(Z)\,\|\,p(Z\mid A,X,\Theta)\big)\right)
+% + df_\Theta \log\!\left(\frac{n(n-1)}{2}\right)
+% + (df_\pi + df_{\text{attr}})\log n.
+% \]
+
+% Il numero ottimale di gruppi è:
+% \[
+% K_{opt}= \arg\min_K \text{vICL}(K).
+% \]
+
+
+\end{document}

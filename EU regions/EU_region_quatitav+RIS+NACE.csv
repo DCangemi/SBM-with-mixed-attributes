@@ -1,0 +1,211 @@
+cname,region_code,name,impartialityp,corruptionp,corruption_subPer,corruption_subExp,sector,Performance_group,Performance_group_short
+Austria,AT11,Burgenland (AT),1.367,0.6,0.837699,1.03163,"Public administration, defence, education, human health and social work activities [O-Q]",Strong Innovator +,Strong
+Austria,AT12,Niederösterreich,1.394,0.306,0.707117,0.61355,"Public administration, defence, education, human health and social work activities [O-Q]",Strong Innovator +,Strong
+Austria,AT13,Wien,0.85,0.323,0.666202,0.687072,"Public administration, defence, education, human health and social work activities [O-Q]",Strong Innovator +,Strong
+Austria,AT21,Kärnten,1.158,0.409,0.724308,0.788828,"Public administration, defence, education, human health and social work activities [O-Q]",Strong Innovator,Strong
+Austria,AT22,Steiermark,1.448,0.549,0.954162,0.821141,"Public administration, defence, education, human health and social work activities [O-Q]",Strong Innovator,Strong
+Austria,AT31,Oberösterreich,1.141,0.279,0.785192,0.485575,Industry (except construction) [B-E],Strong Innovator,Strong
+Austria,AT32,Salzburg,1.198,0.72,1.08654,1.00755,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]",Strong Innovator,Strong
+Austria,AT33,Tirol,1.325,0.321,0.802379,0.547305,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]",Strong Innovator,Strong
+Austria,AT34,Vorarlberg,1.005,0.548,0.775633,0.996825,Industry (except construction) [B-E],Strong Innovator,Strong
+Belgium,BE1,Region Brussels ,-0.201,-0.221,-0.103907,-0.921558,"Public administration, defence, education, human health and social work activities [O-Q]",Innovation leader -,Leader
+Belgium,BE2,Flanders,0.688,0.83,0.418791,0.505615,"Public administration, defence, education, human health and social work activities [O-Q]",Innovation leader -,Leader
+Belgium,BE3,Wallonie,0.704,0.763,0.442987,0.365276,"Public administration, defence, education, human health and social work activities [O-Q]",Strong Innovator,Strong
+Bulgaria,BG31,Severozapaden,-1.648,-2.563,-2.4869,-3.97126,Industry (except construction) [B-E],Emerging Innovator -,Emerging
+Bulgaria,BG32,Severen tsentralen,-0.1,-0.11,-1.00204,-0.882372,Industry (except construction) [B-E],Emerging Innovator -,Emerging
+Bulgaria,BG33,Severoiztochen,-0.325,-1.049,-1.44514,-2.1903,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]",Emerging Innovator,Emerging
+Bulgaria,BG34,Yugoiztochen,-0.948,-1.153,-1.77342,-2.05557,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]",Emerging Innovator -,Emerging
+Bulgaria,BG41,Yugozapaden,-1.541,-1.806,-2.21674,-2.82923,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]",Emerging Innovator +,Emerging
+Bulgaria,BG42,Yuzhen tsentralen,-2.293,-1.481,-2.69322,-1.74686,Industry (except construction) [B-E],Emerging Innovator,Emerging
+Cyprus,CY,Cyprus,-0.488,-0.686,-1.55546,-1.83715,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]",Moderate Innovator,Moderate
+Czech Republic,CZ01,Praha,-0.057,-0.386,0.053454,0.034131,"Public administration, defence, education, human health and social work activities [O-Q]",Strong Innovator,Strong
+Czech Republic,CZ02,Strední Cechy,0.018,-0.273,0.283935,0.013753,Industry (except construction) [B-E],Moderate Innovator -,Moderate
+Czech Republic,CZ03,Jihozápad,-0.376,-0.337,0.116356,0.063783,Industry (except construction) [B-E],Moderate Innovator -,Moderate
+Czech Republic,CZ04,Severozápad,-0.679,-0.598,-0.21414,-0.093941,Industry (except construction) [B-E],Emerging Innovator +,Emerging
+Czech Republic,CZ05,Severovýchod,-0.34,-0.133,0.147045,0.412233,Industry (except construction) [B-E],Moderate Innovator -,Moderate
+Czech Republic,CZ06,Jihovýchod,-0.167,-0.422,0.022428,-0.001558,Industry (except construction) [B-E],Moderate Innovator,Moderate
+Czech Republic,CZ07,Strední Morava,-0.549,-0.411,-0.064364,0.106573,Industry (except construction) [B-E],Moderate Innovator -,Moderate
+Czech Republic,CZ08,Moravskoslezsko,-0.27,-0.519,-0.089693,-0.070108,Industry (except construction) [B-E],Moderate Innovator -,Moderate
+Germany,DE1,Baden-Württemberg,0.912,0.792,0.921439,0.275067,Industry (except construction) [B-E],Innovation leader,Leader
+Germany,DE2,Bayern,0.987,1.032,1.12799,0.515626,"Public administration, defence, education, human health and social work activities [O-Q]",Strong Innovator,Strong
+Germany,DE3,Berlin,0.403,0.556,0.736163,0.019903,"Public administration, defence, education, human health and social work activities [O-Q]",Innovation leader,Leader
+Germany,DE4,Brandenburg,1.099,1.372,1.09595,1.18065,"Public administration, defence, education, human health and social work activities [O-Q]",Strong Innovator -,Strong
+Germany,DE5,Bremen,0.832,1.077,1.0961,0.63042,"Public administration, defence, education, human health and social work activities [O-Q]",Strong Innovator -,Strong
+Germany,DE6,Hamburg,0.446,1.102,1.02436,0.749694,"Public administration, defence, education, human health and social work activities [O-Q]",Innovation leader -,Leader
+Germany,DE7,Hessen,1.051,1.306,1.16812,0.985609,"Public administration, defence, education, human health and social work activities [O-Q]",Strong Innovator,Strong
+Germany,DE8,Mecklenburg-Vorpommern,0.821,1.275,1.06119,1.03498,"Public administration, defence, education, human health and social work activities [O-Q]",Moderate Innovator,Moderate
+Germany,DE9,Niedersachsen,1.119,1.251,1.21442,0.837715,"Public administration, defence, education, human health and social work activities [O-Q]",Moderate Innovator,Moderate
+Germany,DEA,Nordrhein-Westfalen,0.781,1.132,1.07192,0.75749,"Public administration, defence, education, human health and social work activities [O-Q]",Strong Innovator,Strong
+Germany,DEB,Rheinland-Pfalz,0.997,1.28,1.27871,0.826653,"Public administration, defence, education, human health and social work activities [O-Q]",Strong Innovator,Strong
+Germany,DEC,Saarland,0.823,1.221,1.18665,0.808914,"Public administration, defence, education, human health and social work activities [O-Q]",Moderate Innovator +,Moderate
+Germany,DED,Sachsen,0.93,1.367,1.00653,1.26188,"Public administration, defence, education, human health and social work activities [O-Q]",Strong Innovator +,Strong
+Germany,DEE,Sachsen-Anhalt,0.803,1.24,0.971675,1.05884,"Public administration, defence, education, human health and social work activities [O-Q]",Moderate Innovator +,Moderate
+Germany,DEF,Schleswig-Holstein,1.253,1.422,1.36772,0.986673,"Public administration, defence, education, human health and social work activities [O-Q]",Strong Innovator -,Strong
+Germany,DEG,Thüringen,0.698,1.272,1.01567,1.07445,"Public administration, defence, education, human health and social work activities [O-Q]",Strong Innovator -,Strong
+Denmark,DK01,Hovedstaden,1.157,1.513,1.3965,0.093197,"Public administration, defence, education, human health and social work activities [O-Q]",Innovation leader +,Leader
+Denmark,DK02,Sjælland,1.548,2.042,1.46992,1.00659,"Public administration, defence, education, human health and social work activities [O-Q]",Strong Innovator -,Strong
+Denmark,DK03,Syddanmark,1.487,2.034,1.64263,0.818951,"Public administration, defence, education, human health and social work activities [O-Q]",Strong Innovator,Strong
+Denmark,DK04,Midtjylland,1.791,1.981,1.5923,0.770244,"Public administration, defence, education, human health and social work activities [O-Q]",Innovation leader,Leader
+Denmark,DK05,Nordjylland,2.009,2.143,1.52356,1.14049,"Public administration, defence, education, human health and social work activities [O-Q]",Innovation leader -,Leader
+Estonia,EE,Estonia,0.736,0.762,0.565889,-0.115778,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]",Strong Innovator -,Strong
+Greece,EL30,Attiki,-1.412,-1.448,-1.02306,-1.77378,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]",Moderate Innovator,Moderate
+Greece,EL41,Voreio Aigaio,-0.556,-0.833,-0.281787,-1.36796,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]",Emerging Innovator +,Emerging
+Greece,EL42,Notio Aigaio,-0.604,-1.161,-0.674718,-1.58663,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]",Emerging Innovator,Emerging
+Greece,EL43,Kriti,-0.709,-0.986,-0.812225,-1.12337,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]",Moderate Innovator,Moderate
+Greece,EL51,"Anatoliki Makedonia, Thraki",-1.331,-1.089,-0.871612,-1.25604,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]",Emerging Innovator +,Emerging
+Greece,EL52,Kentriki Makedonia,-1.031,-0.863,-0.835279,-0.870589,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]",Moderate Innovator -,Moderate
+Greece,EL53,Dytiki Makedonia,-0.059,-0.639,-0.317824,-0.971162,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]",Emerging Innovator,Emerging
+Greece,EL54,Ipeiros,-0.868,-1.233,-0.715935,-1.68028,"Public administration, defence, education, human health and social work activities [O-Q]",Moderate Innovator -,Moderate
+Greece,EL61,Thessalia,-0.495,-0.851,-0.429193,-1.25518,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]",Emerging Innovator +,Emerging
+Greece,EL62,Ionia Nisia,-0.087,-1.046,-0.20209,-1.84453,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]",Emerging Innovator +,Emerging
+Greece,EL63,Dytiki Ellada,-1.277,-1.554,-0.88006,-2.11431,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]",Moderate Innovator -,Moderate
+Greece,EL64,Sterea Ellada,-1.164,-1.152,-0.950985,-1.29343,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]",Emerging Innovator +,Emerging
+Greece,EL65,Peloponnisos,-1.309,-1.088,-0.85298,-1.27332,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]",Emerging Innovator +,Emerging
+Spain,ES11,Galicia,-0.59,-0.508,-0.058585,0.127324,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]",Moderate Innovator,Moderate
+Spain,ES12,Principado de Asturias,-0.405,-0.061,0.088114,0.81271,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]",Moderate Innovator,Moderate
+Spain,ES13,Cantabria,0.609,0.196,0.702556,0.67783,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]",Moderate Innovator,Moderate
+Spain,ES21,País Vasco,-0.317,0.119,0.341919,0.894942,"Public administration, defence, education, human health and social work activities [O-Q]",Strong Innovator -,Strong
+Spain,ES22,Comunidad Foral de Navarra,0.047,0.075,0.377746,0.776166,Industry (except construction) [B-E],Strong Innovator -,Strong
+Spain,ES23,La Rioja,0.425,-0.072,0.372031,0.5087,Industry (except construction) [B-E],Moderate Innovator,Moderate
+Spain,ES24,Aragón,-0.226,-0.04,0.322131,0.619112,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]",Moderate Innovator,Moderate
+Spain,ES30,Comunidad de Madrid,0.446,-0.059,0.376244,0.527846,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]",Strong Innovator -,Strong
+Spain,ES41,Castilla y León,-2.138,-0.72,-0.836308,0.509768,"Public administration, defence, education, human health and social work activities [O-Q]",Moderate Innovator,Moderate
+Spain,ES42,Castilla-la Mancha,-0.252,-0.087,0.320661,0.531339,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]",Moderate Innovator -,Moderate
+Spain,ES43,Extremadura,-1.393,-0.487,-0.753115,0.860873,"Public administration, defence, education, human health and social work activities [O-Q]",Moderate Innovator -,Moderate
+Spain,ES51,Cataluña,0.198,-0.266,0.136004,0.38392,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]",Strong Innovator,Strong
+Spain,ES52,Comunitat Valenciana,-0.043,-0.381,-0.183483,0.488075,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]",Strong Innovator -,Strong
+Spain,ES53,Illes Balears,-0.268,-0.521,-0.372201,0.415409,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]",Moderate Innovator -,Moderate
+Spain,ES61,Andalucía,-1.179,-0.726,-0.699002,0.359708,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]",Moderate Innovator -,Moderate
+Spain,ES62,Región de Murcia,0.109,-0.276,0.339492,0.160327,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]",Moderate Innovator,Moderate
+Spain,ES70,Canarias,0.309,-0.544,0.033127,-0.031874,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]",Moderate Innovator -,Moderate
+Finland,FI19,Länsi-Suomi,1.487,1.612,1.52401,1.2044,"Public administration, defence, education, human health and social work activities [O-Q]",Strong Innovator +,Strong
+Finland,FI1B,Helsinki-Uusimaa,1.456,1.586,1.64897,1.03133,"Public administration, defence, education, human health and social work activities [O-Q]",Innovation leader,Leader
+Finland,FI1C,Etelä-Suomi,1.661,1.71,1.68285,1.22758,"Public administration, defence, education, human health and social work activities [O-Q]",Strong Innovator,Strong
+Finland,FI1D,Pohjois- ja Itä-Suomi,1.874,1.79,1.72943,1.32994,"Public administration, defence, education, human health and social work activities [O-Q]",Strong Innovator,Strong
+Finland,FI20,Åland,2.812,2.088,2.05894,1.55633,"Public administration, defence, education, human health and social work activities [O-Q]",Strong Innovator -,Strong
+France,FR10,Île de France,0.037,-0.075,0.013766,-0.320654,"Public administration, defence, education, human health and social work activities [O-Q]",Innovation leader -,Leader
+France,FRB0,Centre - Val de Loire,0.271,0.802,0.585977,0.742007,"Public administration, defence, education, human health and social work activities [O-Q]",Moderate Innovator +,Moderate
+France,FRC1,Bourgogne,0.313,0.621,0.41068,0.580969,"Public administration, defence, education, human health and social work activities [O-Q]",Moderate Innovator +,Moderate
+France,FRC2,Franche-Comté,0.675,0.511,0.412125,0.372754,"Public administration, defence, education, human health and social work activities [O-Q]",Moderate Innovator +,Moderate
+France,FRD1,Basse-Normandie,0.403,0.776,0.595337,0.685092,"Public administration, defence, education, human health and social work activities [O-Q]",Moderate Innovator,Moderate
+France,FRD2,Haute-Normandie,0.395,0.596,0.322191,0.622729,"Public administration, defence, education, human health and social work activities [O-Q]",Moderate Innovator,Moderate
+France,FRE1,Nord-Pas-de-Calais,0.147,0.376,0.062742,0.471071,"Public administration, defence, education, human health and social work activities [O-Q]",Moderate Innovator,Moderate
+France,FRE2,Picardie,0.052,0.222,0.066473,0.180673,"Public administration, defence, education, human health and social work activities [O-Q]",Moderate Innovator,Moderate
+France,FRF1,Alsace,0.485,0.518,0.438348,0.36038,"Public administration, defence, education, human health and social work activities [O-Q]",Moderate Innovator +,Moderate
+France,FRF2,Champagne-Ardenne,-0.076,0.388,0.06985,0.486265,"Public administration, defence, education, human health and social work activities [O-Q]",Moderate Innovator +,Moderate
+France,FRF3,Lorraine,0.185,0.516,0.249493,0.545935,"Public administration, defence, education, human health and social work activities [O-Q]",Moderate Innovator +,Moderate
+France,FRG0,Pays-de-la-Loire,0.709,0.956,0.734002,0.881351,"Public administration, defence, education, human health and social work activities [O-Q]",Moderate Innovator +,Moderate
+France,FRH0,Bretagne,0.755,1.061,0.811509,0.982614,"Public administration, defence, education, human health and social work activities [O-Q]",Strong Innovator -,Strong
+France,FRI1,Aquitaine,0.763,0.731,0.629656,0.565568,"Public administration, defence, education, human health and social work activities [O-Q]",Moderate Innovator +,Moderate
+France,FRI2,Limousin,0.569,0.904,0.604986,0.91249,"Public administration, defence, education, human health and social work activities [O-Q]",Moderate Innovator +,Moderate
+France,FRI3,Poitou-Charentes,0.444,0.599,0.427978,0.522476,"Public administration, defence, education, human health and social work activities [O-Q]",Moderate Innovator +,Moderate
+France,FRJ1,Languedoc-Roussillon,0.178,0.238,0.058654,0.219036,"Public administration, defence, education, human health and social work activities [O-Q]",Strong Innovator,Strong
+France,FRJ2,Midi-Pyrénées,0.561,0.561,0.533449,0.345429,"Public administration, defence, education, human health and social work activities [O-Q]",Strong Innovator,Strong
+France,FRK1,Auvergne,0.61,0.76,0.519588,0.730864,"Public administration, defence, education, human health and social work activities [O-Q]",Strong Innovator,Strong
+France,FRK2,Rhône-Alpes,0.475,0.648,0.384729,0.656084,"Public administration, defence, education, human health and social work activities [O-Q]",Strong Innovator,Strong
+France,FRL0,Provence-Alpes-Côte d'Azur,0.039,-0.101,-0.25,-0.104348,"Public administration, defence, education, human health and social work activities [O-Q]",Strong Innovator -,Strong
+France,FRM0,Corse,0.99,-0.098,-0.289367,-0.060733,"Public administration, defence, education, human health and social work activities [O-Q]",Emerging Innovator,Emerging
+France,FRY1,Guadeloupe,-0.381,-1.174,-1.51353,-0.841959,"Public administration, defence, education, human health and social work activities [O-Q]",Moderate Innovator -,Moderate
+France,FRY2,Martinique,-0.043,-0.565,-1.0178,-0.202277,"Public administration, defence, education, human health and social work activities [O-Q]",Moderate Innovator -,Moderate
+France,FRY3,Guyane,-0.347,-0.894,-1.03671,-0.7974,"Public administration, defence, education, human health and social work activities [O-Q]",Moderate Innovator -,Moderate
+France,FRY4,La Réunion,0.328,-0.579,-1.10282,-0.14239,"Public administration, defence, education, human health and social work activities [O-Q]",Moderate Innovator -,Moderate
+France,FRY5,Mayotte,0.13,-1.511,-1.24148,-1.74215,Financial and insurance activities [K],Moderate Innovator -,Moderate
+Croatia,HR02,Panonska Hrvatska,-1.064,-1.284,-2.6755,-1.99415,"Public administration, defence, education, human health and social work activities [O-Q]",Emerging Innovator,Emerging
+Croatia,HR03,Jadranska Hrvatska,-0.855,-0.798,-2.55207,-1.21261,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]",Emerging Innovator +,Emerging
+Croatia,HR05,Grad Zagreb,-1.424,-1.189,-3.11927,-1.37423,"Public administration, defence, education, human health and social work activities [O-Q]",Moderate Innovator +,Moderate
+Croatia,HR06,Sjeverna Hrvatska ,-0.353,-0.973,-2.34072,-1.75059,Industry (except construction) [B-E],Emerging Innovator +,Emerging
+Hungary,HU11,Budapest,-0.713,-1.398,-0.926141,-0.332425,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]",Moderate Innovator +,Moderate
+Hungary,HU12,Pest,-0.541,-1.431,-0.693889,-0.627346,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]",Emerging Innovator +,Emerging
+Hungary,HU21,Közép-Dunántúl,-0.624,-1.055,-0.414364,-0.204314,Industry (except construction) [B-E],Emerging Innovator +,Emerging
+Hungary,HU22,Nyugat-Dunántúl,-1.07,-1.196,-0.703627,-0.177967,Industry (except construction) [B-E],Emerging Innovator +,Emerging
+Hungary,HU23,Dél-Dunántúl,-1.071,-1.209,-0.756849,-0.149567,"Public administration, defence, education, human health and social work activities [O-Q]",Emerging Innovator +,Emerging
+Hungary,HU31,Észak-Magyarország,-1.009,-1.492,-0.725623,-0.709347,Industry (except construction) [B-E],Emerging Innovator,Emerging
+Hungary,HU32,Észak-Alföld,-1.497,-1.587,-0.979387,-0.631745,"Public administration, defence, education, human health and social work activities [O-Q]",Emerging Innovator +,Emerging
+Hungary,HU33,Dél-Alföld,-1.019,-1.368,-0.691052,-0.511873,"Public administration, defence, education, human health and social work activities [O-Q]",Emerging Innovator +,Emerging
+Ireland,IE04,Northern and Western,0.748,1.116,0.226379,-0.031722,"Public administration, defence, education, human health and social work activities [O-Q]",Strong Innovator +,Strong
+Ireland,IE05,Southern,0.893,1.258,0.437849,0.021387,"Public administration, defence, education, human health and social work activities [O-Q]",Strong Innovator,Strong
+Ireland,IE06,Eastern and Midland,0.948,0.641,0.109973,-0.801034,"Public administration, defence, education, human health and social work activities [O-Q]",Innovation leader -,Leader
+Italy,ITC1,Piemonte,-0.801,-0.151,-0.015136,1.1976,Industry (except construction) [B-E],Moderate Innovator +,Moderate
+Italy,ITC2,Valle d’Aosta,-0.762,-0.351,0.419287,0.390161,"Public administration, defence, education, human health and social work activities [O-Q]",Emerging Innovator +,Emerging
+Italy,ITC3,Liguria,0.014,0.178,0.662794,1.13279,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]",Moderate Innovator,Moderate
+Italy,ITC4,Lombardia,-0.841,-0.214,0.042851,1.02231,Industry (except construction) [B-E],Moderate Innovator +,Moderate
+Italy,ITF1,Abruzzo,-1.21,-0.925,-0.05886,-0.200912,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]",Moderate Innovator,Moderate
+Italy,ITF2,Molise,-2.152,-1.275,-1.4041,0.492557,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]",Moderate Innovator -,Moderate
+Italy,ITF3,Campania,-1.187,-1.097,-0.52171,-0.058142,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]",Moderate Innovator,Moderate
+Italy,ITF4,Puglia,-1.458,-0.67,-0.195007,0.410435,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]",Moderate Innovator,Moderate
+Italy,ITF5,Basilicata,-1.345,-0.984,-0.449351,0.07975,"Public administration, defence, education, human health and social work activities [O-Q]",Moderate Innovator -,Moderate
+Italy,ITF6,Calabria,-1.389,-0.869,-0.740412,0.584119,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]",Moderate Innovator -,Moderate
+Italy,ITG1,Sicilia,-2.452,-1.32,-1.24451,0.248666,"Public administration, defence, education, human health and social work activities [O-Q]",Moderate Innovator -,Moderate
+Italy,ITG2,Sardegna,-0.127,-0.079,0.477048,0.839423,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]",Moderate Innovator -,Moderate
+Italy,ITH1,Bolzano/Bozen,-0.452,0.048,0.677148,0.875785,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]",Moderate Innovator +,Moderate
+Italy,ITH2,Trento,-0.131,0.194,0.799167,1.02658,"Public administration, defence, education, human health and social work activities [O-Q]",Strong Innovator -,Strong
+Italy,ITH3,Veneto,-0.914,0.027,0.47008,1.04511,Industry (except construction) [B-E],Moderate Innovator +,Moderate
+Italy,ITH4,Friuli-Venezia Giulia,0.506,0.436,1.21024,1.06651,Industry (except construction) [B-E],Strong Innovator -,Strong
+Italy,ITH5,Emilia-Romagna,-1.986,-1.082,-1.16189,0.609024,Industry (except construction) [B-E],Strong Innovator -,Strong
+Italy,ITI1,Toscana,-0.847,-0.538,0.331234,0.130119,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]",Moderate Innovator +,Moderate
+Italy,ITI2,Umbria,-1.472,-0.628,-0.806228,1.09919,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]",Moderate Innovator,Moderate
+Italy,ITI3,Marche,-0.508,-0.347,0.177398,0.640512,Industry (except construction) [B-E],Moderate Innovator,Moderate
+Italy,ITI4,Lazio,-1.37,-0.67,-0.080394,0.296157,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]",Moderate Innovator +,Moderate
+Lithuania,LT01,Sostines regionas (Vilinius),0.547,-0.013,0.083468,-0.088255,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]",Moderate Innovator +,Moderate
+Lithuania,LT02,Vidurio ir vakaru Lietuvos regionas,-0.055,-0.371,-0.270222,-0.394384,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]",Emerging Innovator +,Emerging
+Luxembourg,LU,Luxembourg,1.296,1.199,1.26727,1.06582,"Public administration, defence, education, human health and social work activities [O-Q]",Strong Innovator,Strong
+Latvia,LV,Latvia,-0.109,-0.335,-0.563149,-0.490056,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]",Emerging Innovator +,Emerging
+Malta,MT,Malta,-0.333,-0.922,-2.02437,-0.066832,"Public administration, defence, education, human health and social work activities [O-Q]",Moderate Innovator +,Moderate
+Netherlands,NL11,Groningen,1.322,1.472,0.908912,-0.391992,"Public administration, defence, education, human health and social work activities [O-Q]",Innovation leader -,Leader
+Netherlands,NL12,Friesland (NL),1.308,1.552,0.992891,-0.326812,"Public administration, defence, education, human health and social work activities [O-Q]",Strong Innovator -,Strong
+Netherlands,NL13,Drenthe,1.212,1.485,1.02491,-0.485505,"Public administration, defence, education, human health and social work activities [O-Q]",Strong Innovator,Strong
+Netherlands,NL21,Overijssel,1.267,1.677,0.963639,-0.064892,"Public administration, defence, education, human health and social work activities [O-Q]",Strong Innovator +,Strong
+Netherlands,NL22,Gelderland,1.467,1.419,0.971892,-0.553907,"Public administration, defence, education, human health and social work activities [O-Q]",Innovation leader -,Leader
+Netherlands,NL23,Flevoland,1.29,1.17,0.798427,-0.844452,"Public administration, defence, education, human health and social work activities [O-Q]",Strong Innovator +,Strong
+Netherlands,NL31,Utrecht,1.026,1.163,0.843867,-0.903512,Financial and insurance activities [K],Innovation leader,Leader
+Netherlands,NL32,Noord-Holland,0.902,0.788,0.5195,-1.27812,"Public administration, defence, education, human health and social work activities [O-Q]",Innovation leader,Leader
+Netherlands,NL33,Zuid-Holland,1.078,1.197,0.615545,-0.611799,Financial and insurance activities [K],Innovation leader -,Leader
+Netherlands,NL34,Zeeland,1.463,1.343,0.894672,-0.619098,"Public administration, defence, education, human health and social work activities [O-Q]",Strong Innovator -,Strong
+Netherlands,NL41,Noord-Brabant,0.971,1.322,0.672999,-0.435759,"Public administration, defence, education, human health and social work activities [O-Q]",Innovation leader -,Leader
+Netherlands,NL42,Limburg (NL),0.888,1.278,0.687754,-0.532447,"Public administration, defence, education, human health and social work activities [O-Q]",Innovation leader -,Leader
+Poland,PL21,Malopolskie,-1.001,-0.611,-0.294459,-0.073372,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]",Moderate Innovator -,Moderate
+Poland,PL22,Slaskie,-0.779,-0.49,-0.162694,0.020691,Industry (except construction) [B-E],Emerging Innovator +,Emerging
+Poland,PL41,Wielkopolskie,-0.657,-0.334,-0.110654,0.260198,Industry (except construction) [B-E],Emerging Innovator +,Emerging
+Poland,PL42,Zachodniopomorskie,-0.738,-0.406,-0.142008,0.156207,"Public administration, defence, education, human health and social work activities [O-Q]",Emerging Innovator +,Emerging
+Poland,PL43,Lubuskie,-1.131,-0.522,-0.082858,-0.118753,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]",Emerging Innovator,Emerging
+Poland,PL51,Dolnoslaskie,-1.08,-0.794,-0.384359,-0.325284,Industry (except construction) [B-E],Moderate Innovator -,Moderate
+Poland,PL52,Opolskie,-0.907,-0.204,0.14022,0.240924,Industry (except construction) [B-E],Emerging Innovator +,Emerging
+Poland,PL61,Kujawsko-Pomorskie,-1.005,-0.511,-0.155851,-0.024701,Industry (except construction) [B-E],Emerging Innovator +,Emerging
+Poland,PL62,Warminsko-Mazurskie,-1.135,-0.417,-0.054005,0.04729,"Public administration, defence, education, human health and social work activities [O-Q]",Emerging Innovator +,Emerging
+Poland,PL63,Pomorskie,-0.659,-0.403,0.134472,-0.118703,"Public administration, defence, education, human health and social work activities [O-Q]",Moderate Innovator -,Moderate
+Poland,PL71,Lódzkie,-0.461,-0.473,-0.075854,-0.033843,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]",Emerging Innovator +,Emerging
+Poland,PL72,Swietokrzyskie,-1.347,-0.794,-0.353577,-0.355042,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]",Emerging Innovator,Emerging
+Poland,PL81,Lubelskie,-1.188,-0.821,-0.402754,-0.356841,"Public administration, defence, education, human health and social work activities [O-Q]",Emerging Innovator +,Emerging
+Poland,PL82,Podkarpackie,-1.272,-0.816,-0.548124,-0.201969,Industry (except construction) [B-E],Emerging Innovator +,Emerging
+Poland,PL84,Podlaskie,-1.131,-0.46,-0.043416,-0.043418,"Public administration, defence, education, human health and social work activities [O-Q]",Emerging Innovator +,Emerging
+Poland,PL91,Warszawski stoleczny,-0.91,-0.801,-0.294796,-0.427649,"Public administration, defence, education, human health and social work activities [O-Q]",Moderate Innovator +,Moderate
+Poland,PL92,Mazowiecki regionalny,-1.052,-0.722,-0.191143,-0.38288,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]",Emerging Innovator,Emerging
+Portugal,PT11,Norte,-0.304,-0.484,-0.495788,0.924889,Industry (except construction) [B-E],Moderate Innovator,Moderate
+Portugal,PT15,Algarve,0.104,-0.491,-0.399815,0.814955,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]",Moderate Innovator -,Moderate
+Portugal,PT16,Centro (PT),0.263,-0.322,-0.125923,0.856713,Financial and insurance activities [K],Moderate Innovator +,Moderate
+Portugal,PT17,Área Metropolitana de Lisboa,0.664,-0.048,0.017852,1.22362,Financial and insurance activities [K],Strong Innovator,Strong
+Portugal,PT18,Alentejo,0.469,-0.124,-0.007552,1.10698,Financial and insurance activities [K],Emerging Innovator +,Emerging
+Portugal,PT20,Região Autónoma dos Açores (PT),1.083,-0.088,0.277665,0.88988,"Public administration, defence, education, human health and social work activities [O-Q]",Emerging Innovator +,Emerging
+Portugal,PT30,Região Autónoma da Madeira (PT),0.523,-0.267,0.004463,0.828641,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]",Moderate Innovator -,Moderate
+Romania,RO11,Nord-Vest,-0.841,-1.033,-1.44013,-2.262,Industry (except construction) [B-E],Emerging Innovator -,Emerging
+Romania,RO12,Centru,-0.537,-0.552,-1.19816,-1.60795,Industry (except construction) [B-E],Emerging Innovator -,Emerging
+Romania,RO21,Nord-Est,-1.085,-1.39,-1.78251,-2.5843,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]",Emerging Innovator -,Emerging
+Romania,RO22,Sud-Est,-1.218,-1.343,-1.87521,-2.40392,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]",Emerging Innovator -,Emerging
+Romania,RO31,Sud - Muntenia,-0.743,-1.6,-1.61943,-3.13886,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]",Emerging Innovator -,Emerging
+Romania,RO32,Bucuresti - Ilfov,-1.243,-1.459,-1.99994,-2.49646,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]",Emerging Innovator +,Emerging
+Romania,RO41,Sud-Vest Oltenia,-0.989,-1.091,-1.68833,-2.12113,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]",Emerging Innovator -,Emerging
+Romania,RO42,Vest,-1.155,-0.943,-1.74286,-1.79182,Industry (except construction) [B-E],Emerging Innovator -,Emerging
+Sweden,SE11,Stockholm,0.97,1.209,1.026,0.66555,"Public administration, defence, education, human health and social work activities [O-Q]",Innovation leader +,Leader
+Sweden,SE12,Östra Mellansverige,0.975,1.245,1.1657,0.593963,"Public administration, defence, education, human health and social work activities [O-Q]",Innovation leader -,Leader
+Sweden,SE21,Småland med öarna,1.584,1.683,1.52555,1.05112,"Public administration, defence, education, human health and social work activities [O-Q]",Strong Innovator -,Strong
+Sweden,SE22,Sydsverige,0.868,1.424,1.23701,0.856346,"Public administration, defence, education, human health and social work activities [O-Q]",Innovation leader,Leader
+Sweden,SE23,Västsverige,1.222,1.477,1.3913,0.800631,"Public administration, defence, education, human health and social work activities [O-Q]",Innovation leader,Leader
+Sweden,SE31,Norra Mellansverige,1.532,1.673,1.41457,1.14268,"Public administration, defence, education, human health and social work activities [O-Q]",Strong Innovator -,Strong
+Sweden,SE32,Mellersta Norrland,1.984,1.817,1.6402,1.18633,"Public administration, defence, education, human health and social work activities [O-Q]",Moderate Innovator +,Moderate
+Sweden,SE33,Övre Norrland,1.46,1.765,1.59184,1.13612,"Public administration, defence, education, human health and social work activities [O-Q]",Strong Innovator +,Strong
+Slovenia,SI03,Vzhodna Slovenija,-0.27,-0.405,-0.813846,-0.129423,Industry (except construction) [B-E],Moderate Innovator -,Moderate
+Slovenia,SI04,Zahodna Slovenija,0.245,-0.058,-0.596539,0.300393,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]",Strong Innovator -,Strong
+Slovakia,SK01,Bratislavský kraj,-0.82,-1.596,-1.58468,-1.22565,"Public administration, defence, education, human health and social work activities [O-Q]",Moderate Innovator +,Moderate
+Slovakia,SK02,Západné Slovensko,-0.373,-0.867,-1.16924,-0.28326,Industry (except construction) [B-E],Emerging Innovator +,Emerging
+Slovakia,SK03,Stredné Slovensko,-0.155,-0.524,-0.964472,0.152559,Industry (except construction) [B-E],Emerging Innovator +,Emerging
+Slovakia,SK04,Východné Slovensko,-1.146,-1.114,-1.40605,-0.505869,"Public administration, defence, education, human health and social work activities [O-Q]",Emerging Innovator +,Emerging

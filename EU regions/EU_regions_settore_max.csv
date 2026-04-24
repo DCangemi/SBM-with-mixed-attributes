@@ -1,0 +1,513 @@
+TIME,TIME.1,sector
+EU27_2020,European Union - 27 countries (from 2020),"Public administration, defence, education, human health and social work activities [O-Q]"
+EA21,Euro area – 21 countries (from 2026),"Public administration, defence, education, human health and social work activities [O-Q]"
+BE,Belgium,"Public administration, defence, education, human health and social work activities [O-Q]"
+BE1,Région de Bruxelles-Capitale/Brussels Hoofdstedelijk Gewest,"Public administration, defence, education, human health and social work activities [O-Q]"
+BE10,Région de Bruxelles-Capitale/Brussels Hoofdstedelijk Gewest,"Public administration, defence, education, human health and social work activities [O-Q]"
+BE2,Vlaams Gewest,"Public administration, defence, education, human health and social work activities [O-Q]"
+BE21,Prov. Antwerpen,"Public administration, defence, education, human health and social work activities [O-Q]"
+BE22,Prov. Limburg (BE),"Public administration, defence, education, human health and social work activities [O-Q]"
+BE23,Prov. Oost-Vlaanderen,"Public administration, defence, education, human health and social work activities [O-Q]"
+BE24,Prov. Vlaams-Brabant,"Public administration, defence, education, human health and social work activities [O-Q]"
+BE25,Prov. West-Vlaanderen,"Public administration, defence, education, human health and social work activities [O-Q]"
+BE3,Région wallonne,"Public administration, defence, education, human health and social work activities [O-Q]"
+BE31,Prov. Brabant wallon,"Public administration, defence, education, human health and social work activities [O-Q]"
+BE32,Prov. Hainaut,"Public administration, defence, education, human health and social work activities [O-Q]"
+BE33,Prov. Liège,"Public administration, defence, education, human health and social work activities [O-Q]"
+BE34,Prov. Luxembourg (BE),"Public administration, defence, education, human health and social work activities [O-Q]"
+BE35,Prov. Namur,"Public administration, defence, education, human health and social work activities [O-Q]"
+BG,Bulgaria,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+BG3,Severna i Yugoiztochna Bulgaria,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+BG31,Severozapaden,Industry (except construction) [B-E]
+BG32,Severen tsentralen,Industry (except construction) [B-E]
+BG33,Severoiztochen,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+BG34,Yugoiztochen,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+BG4,Yugozapadna i Yuzhna tsentralna Bulgaria,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+BG41,Yugozapaden,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+BG42,Yuzhen tsentralen,Industry (except construction) [B-E]
+CZ,Czechia,Industry (except construction) [B-E]
+CZ0,Česko,Industry (except construction) [B-E]
+CZ01,Praha,"Public administration, defence, education, human health and social work activities [O-Q]"
+CZ02,Střední Čechy,Industry (except construction) [B-E]
+CZ03,Jihozápad,Industry (except construction) [B-E]
+CZ04,Severozápad,Industry (except construction) [B-E]
+CZ05,Severovýchod,Industry (except construction) [B-E]
+CZ06,Jihovýchod,Industry (except construction) [B-E]
+CZ07,Střední Morava,Industry (except construction) [B-E]
+CZ08,Moravskoslezsko,Industry (except construction) [B-E]
+DK,Denmark,"Public administration, defence, education, human health and social work activities [O-Q]"
+DK0,Danmark,"Public administration, defence, education, human health and social work activities [O-Q]"
+DK01,Hovedstaden,"Public administration, defence, education, human health and social work activities [O-Q]"
+DK02,Sjælland,"Public administration, defence, education, human health and social work activities [O-Q]"
+DK03,Syddanmark,"Public administration, defence, education, human health and social work activities [O-Q]"
+DK04,Midtjylland,"Public administration, defence, education, human health and social work activities [O-Q]"
+DK05,Nordjylland,"Public administration, defence, education, human health and social work activities [O-Q]"
+DE,Germany,"Public administration, defence, education, human health and social work activities [O-Q]"
+DE1,Baden-Württemberg,Industry (except construction) [B-E]
+DE11,Stuttgart,Industry (except construction) [B-E]
+DE12,Karlsruhe,"Public administration, defence, education, human health and social work activities [O-Q]"
+DE13,Freiburg,"Public administration, defence, education, human health and social work activities [O-Q]"
+DE14,Tübingen,Industry (except construction) [B-E]
+DE2,Bayern,"Public administration, defence, education, human health and social work activities [O-Q]"
+DE21,Oberbayern,"Public administration, defence, education, human health and social work activities [O-Q]"
+DE22,Niederbayern,Industry (except construction) [B-E]
+DE23,Oberpfalz,Industry (except construction) [B-E]
+DE24,Oberfranken,Industry (except construction) [B-E]
+DE25,Mittelfranken,"Public administration, defence, education, human health and social work activities [O-Q]"
+DE26,Unterfranken,Industry (except construction) [B-E]
+DE27,Schwaben,Industry (except construction) [B-E]
+DE3,Berlin,"Public administration, defence, education, human health and social work activities [O-Q]"
+DE30,Berlin,"Public administration, defence, education, human health and social work activities [O-Q]"
+DE4,Brandenburg,"Public administration, defence, education, human health and social work activities [O-Q]"
+DE40,Brandenburg,"Public administration, defence, education, human health and social work activities [O-Q]"
+DE5,Bremen,"Public administration, defence, education, human health and social work activities [O-Q]"
+DE50,Bremen,"Public administration, defence, education, human health and social work activities [O-Q]"
+DE6,Hamburg,"Public administration, defence, education, human health and social work activities [O-Q]"
+DE60,Hamburg,"Public administration, defence, education, human health and social work activities [O-Q]"
+DE7,Hessen,"Public administration, defence, education, human health and social work activities [O-Q]"
+DE71,Darmstadt,"Public administration, defence, education, human health and social work activities [O-Q]"
+DE72,Gießen,"Public administration, defence, education, human health and social work activities [O-Q]"
+DE73,Kassel,"Public administration, defence, education, human health and social work activities [O-Q]"
+DE8,Mecklenburg-Vorpommern,"Public administration, defence, education, human health and social work activities [O-Q]"
+DE80,Mecklenburg-Vorpommern,"Public administration, defence, education, human health and social work activities [O-Q]"
+DE9,Niedersachsen,"Public administration, defence, education, human health and social work activities [O-Q]"
+DE91,Braunschweig,"Public administration, defence, education, human health and social work activities [O-Q]"
+DE92,Hannover,"Public administration, defence, education, human health and social work activities [O-Q]"
+DE93,Lüneburg,"Public administration, defence, education, human health and social work activities [O-Q]"
+DE94,Weser-Ems,"Public administration, defence, education, human health and social work activities [O-Q]"
+DEA,Nordrhein-Westfalen,"Public administration, defence, education, human health and social work activities [O-Q]"
+DEA1,Düsseldorf,"Public administration, defence, education, human health and social work activities [O-Q]"
+DEA2,Köln,"Public administration, defence, education, human health and social work activities [O-Q]"
+DEA3,Münster,"Public administration, defence, education, human health and social work activities [O-Q]"
+DEA4,Detmold,"Public administration, defence, education, human health and social work activities [O-Q]"
+DEA5,Arnsberg,"Public administration, defence, education, human health and social work activities [O-Q]"
+DEB,Rheinland-Pfalz,"Public administration, defence, education, human health and social work activities [O-Q]"
+DEB1,Koblenz,"Public administration, defence, education, human health and social work activities [O-Q]"
+DEB2,Trier,"Public administration, defence, education, human health and social work activities [O-Q]"
+DEB3,Rheinhessen-Pfalz,"Public administration, defence, education, human health and social work activities [O-Q]"
+DEC,Saarland,"Public administration, defence, education, human health and social work activities [O-Q]"
+DEC0,Saarland,"Public administration, defence, education, human health and social work activities [O-Q]"
+DED,Sachsen,"Public administration, defence, education, human health and social work activities [O-Q]"
+DED2,Dresden,"Public administration, defence, education, human health and social work activities [O-Q]"
+DED4,Chemnitz,"Public administration, defence, education, human health and social work activities [O-Q]"
+DED5,Leipzig,"Public administration, defence, education, human health and social work activities [O-Q]"
+DEE,Sachsen-Anhalt,"Public administration, defence, education, human health and social work activities [O-Q]"
+DEE0,Sachsen-Anhalt,"Public administration, defence, education, human health and social work activities [O-Q]"
+DEF,Schleswig-Holstein,"Public administration, defence, education, human health and social work activities [O-Q]"
+DEF0,Schleswig-Holstein,"Public administration, defence, education, human health and social work activities [O-Q]"
+DEG,Thüringen,"Public administration, defence, education, human health and social work activities [O-Q]"
+DEG0,Thüringen,"Public administration, defence, education, human health and social work activities [O-Q]"
+EE,Estonia,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+EE0,Eesti,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+EE00,Eesti,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+IE,Ireland,"Public administration, defence, education, human health and social work activities [O-Q]"
+IE0,Ireland,"Public administration, defence, education, human health and social work activities [O-Q]"
+IE04,Northern and Western,"Public administration, defence, education, human health and social work activities [O-Q]"
+IE05,Southern,"Public administration, defence, education, human health and social work activities [O-Q]"
+IE06,Eastern and Midland,"Public administration, defence, education, human health and social work activities [O-Q]"
+IE01,"Border, Midland and Western (NUTS 2013)",Financial and insurance activities [K]
+IE02,Southern and Eastern (NUTS 2013),Financial and insurance activities [K]
+EL,Greece,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+EL3,Attiki,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+EL30,Attiki,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+EL4,"Nisia Aigaiou, Kriti","Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+EL41,Voreio Aigaio,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+EL42,Notio Aigaio,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+EL43,Kriti,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+EL5,Voreia Elláda,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+EL51,"Anatoliki Makedonia, Thraki","Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+EL52,Kentriki Makedonia,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+EL53,Dytiki Makedonia,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+EL54,Ipeiros,"Public administration, defence, education, human health and social work activities [O-Q]"
+EL6,Kentriki Elláda,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+EL61,Thessalia,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+EL62,Ionia Nisia,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+EL63,Dytiki Elláda,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+EL64,Sterea Elláda,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+EL65,Peloponnisos,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+ES,Spain,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+ES1,Noroeste,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+ES11,Galicia,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+ES12,Principado de Asturias,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+ES13,Cantabria,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+ES2,Noreste,"Public administration, defence, education, human health and social work activities [O-Q]"
+ES21,País Vasco,"Public administration, defence, education, human health and social work activities [O-Q]"
+ES22,Comunidad Foral de Navarra,Industry (except construction) [B-E]
+ES23,La Rioja,Industry (except construction) [B-E]
+ES24,Aragón,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+ES3,Comunidad de Madrid,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+ES30,Comunidad de Madrid,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+ES4,Centro (ES),"Public administration, defence, education, human health and social work activities [O-Q]"
+ES41,Castilla y León,"Public administration, defence, education, human health and social work activities [O-Q]"
+ES42,Castilla-La Mancha,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+ES43,Extremadura,"Public administration, defence, education, human health and social work activities [O-Q]"
+ES5,Este,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+ES51,Cataluña,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+ES52,Comunitat Valenciana,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+ES53,Illes Balears,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+ES6,Sur,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+ES61,Andalucía,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+ES62,Región de Murcia,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+ES63,Ciudad de Ceuta,"Public administration, defence, education, human health and social work activities [O-Q]"
+ES64,Ciudad de Melilla,"Public administration, defence, education, human health and social work activities [O-Q]"
+ES7,Canarias,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+ES70,Canarias,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+FR,France,"Public administration, defence, education, human health and social work activities [O-Q]"
+FR1,Ile de France,"Public administration, defence, education, human health and social work activities [O-Q]"
+FR10,Ile de France,"Public administration, defence, education, human health and social work activities [O-Q]"
+FRB,Centre — Val de Loire,"Public administration, defence, education, human health and social work activities [O-Q]"
+FRB0,Centre — Val de Loire,"Public administration, defence, education, human health and social work activities [O-Q]"
+FRC,Bourgogne-Franche-Comté,"Public administration, defence, education, human health and social work activities [O-Q]"
+FRC1,Bourgogne,"Public administration, defence, education, human health and social work activities [O-Q]"
+FRC2,Franche-Comté,"Public administration, defence, education, human health and social work activities [O-Q]"
+FRD,Normandie,"Public administration, defence, education, human health and social work activities [O-Q]"
+FRD1,Basse-Normandie,"Public administration, defence, education, human health and social work activities [O-Q]"
+FRD2,Haute-Normandie,"Public administration, defence, education, human health and social work activities [O-Q]"
+FRE,Hauts-de-France,"Public administration, defence, education, human health and social work activities [O-Q]"
+FRE1,Nord-Pas de Calais,"Public administration, defence, education, human health and social work activities [O-Q]"
+FRE2,Picardie,"Public administration, defence, education, human health and social work activities [O-Q]"
+FRF,Grand Est,"Public administration, defence, education, human health and social work activities [O-Q]"
+FRF1,Alsace,"Public administration, defence, education, human health and social work activities [O-Q]"
+FRF2,Champagne-Ardenne,"Public administration, defence, education, human health and social work activities [O-Q]"
+FRF3,Lorraine,"Public administration, defence, education, human health and social work activities [O-Q]"
+FRG,Pays de la Loire,"Public administration, defence, education, human health and social work activities [O-Q]"
+FRG0,Pays de la Loire,"Public administration, defence, education, human health and social work activities [O-Q]"
+FRH,Bretagne,"Public administration, defence, education, human health and social work activities [O-Q]"
+FRH0,Bretagne,"Public administration, defence, education, human health and social work activities [O-Q]"
+FRI,Nouvelle-Aquitaine,"Public administration, defence, education, human health and social work activities [O-Q]"
+FRI1,Aquitaine,"Public administration, defence, education, human health and social work activities [O-Q]"
+FRI2,Limousin,"Public administration, defence, education, human health and social work activities [O-Q]"
+FRI3,Poitou-Charentes,"Public administration, defence, education, human health and social work activities [O-Q]"
+FRJ,Occitanie,"Public administration, defence, education, human health and social work activities [O-Q]"
+FRJ1,Languedoc-Roussillon,"Public administration, defence, education, human health and social work activities [O-Q]"
+FRJ2,Midi-Pyrénées,"Public administration, defence, education, human health and social work activities [O-Q]"
+FRK,Auvergne-Rhône-Alpes,"Public administration, defence, education, human health and social work activities [O-Q]"
+FRK1,Auvergne,"Public administration, defence, education, human health and social work activities [O-Q]"
+FRK2,Rhône-Alpes,"Public administration, defence, education, human health and social work activities [O-Q]"
+FRL,Provence-Alpes-Côte d’Azur,"Public administration, defence, education, human health and social work activities [O-Q]"
+FRL0,Provence-Alpes-Côte d’Azur,"Public administration, defence, education, human health and social work activities [O-Q]"
+FRM,Corse,"Public administration, defence, education, human health and social work activities [O-Q]"
+FRM0,Corse,"Public administration, defence, education, human health and social work activities [O-Q]"
+FRY,RUP FR — Régions Ultrapériphériques Françaises,"Public administration, defence, education, human health and social work activities [O-Q]"
+FRY1,Guadeloupe,"Public administration, defence, education, human health and social work activities [O-Q]"
+FRY2,Martinique,"Public administration, defence, education, human health and social work activities [O-Q]"
+FRY3,Guyane,"Public administration, defence, education, human health and social work activities [O-Q]"
+FRY4,La Réunion,"Public administration, defence, education, human health and social work activities [O-Q]"
+FRY5,Mayotte,Financial and insurance activities [K]
+HR,Croatia,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+HR0,Hrvatska,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+HR02,Panonska Hrvatska,"Public administration, defence, education, human health and social work activities [O-Q]"
+HR03,Jadranska Hrvatska,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+HR04,Kontinentalna Hrvatska (NUTS 2016),Financial and insurance activities [K]
+HR05,Grad Zagreb,"Public administration, defence, education, human health and social work activities [O-Q]"
+HR06,Sjeverna Hrvatska,Industry (except construction) [B-E]
+IT,Italy,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+ITC,Nord-Ovest,Industry (except construction) [B-E]
+ITC1,Piemonte,Industry (except construction) [B-E]
+ITC2,Valle d’Aosta/Vallée d’Aoste,"Public administration, defence, education, human health and social work activities [O-Q]"
+ITC3,Liguria,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+ITC4,Lombardia,Industry (except construction) [B-E]
+ITF,Sud,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+ITF1,Abruzzo,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+ITF2,Molise,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+ITF3,Campania,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+ITF4,Puglia,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+ITF5,Basilicata,"Public administration, defence, education, human health and social work activities [O-Q]"
+ITF6,Calabria,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+ITG,Isole,"Public administration, defence, education, human health and social work activities [O-Q]"
+ITG1,Sicilia,"Public administration, defence, education, human health and social work activities [O-Q]"
+ITG2,Sardegna,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+ITH,Nord-Est,Industry (except construction) [B-E]
+ITH1,Provincia Autonoma di Bolzano/Bozen,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+ITH2,Provincia Autonoma di Trento,"Public administration, defence, education, human health and social work activities [O-Q]"
+ITH3,Veneto,Industry (except construction) [B-E]
+ITH4,Friuli-Venezia Giulia,Industry (except construction) [B-E]
+ITH5,Emilia-Romagna,Industry (except construction) [B-E]
+ITI,Centro (IT),"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+ITI1,Toscana,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+ITI2,Umbria,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+ITI3,Marche,Industry (except construction) [B-E]
+ITI4,Lazio,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+CY,Cyprus,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+CY0,Kýpros,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+CY00,Kýpros,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+LV,Latvia,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+LV0,Latvija,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+LV00,Latvija,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+LT,Lithuania,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+LT0,Lietuva,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+LT01,Sostinės regionas,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+LT02,Vidurio ir vakarų Lietuvos regionas,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+LT00,Lietuva (NUTS 2013),Financial and insurance activities [K]
+LU,Luxembourg,"Public administration, defence, education, human health and social work activities [O-Q]"
+LU0,Luxembourg,"Public administration, defence, education, human health and social work activities [O-Q]"
+LU00,Luxembourg,"Public administration, defence, education, human health and social work activities [O-Q]"
+HU,Hungary,"Public administration, defence, education, human health and social work activities [O-Q]"
+HU1,Közép-Magyarország,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+HU11,Budapest,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+HU12,Pest,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+HU10,Közép-Magyarország (NUTS 2013),Financial and insurance activities [K]
+HU2,Dunántúl,Industry (except construction) [B-E]
+HU21,Közép-Dunántúl,Industry (except construction) [B-E]
+HU22,Nyugat-Dunántúl,Industry (except construction) [B-E]
+HU23,Dél-Dunántúl,"Public administration, defence, education, human health and social work activities [O-Q]"
+HU3,Alföld és Észak,"Public administration, defence, education, human health and social work activities [O-Q]"
+HU31,Észak-Magyarország,Industry (except construction) [B-E]
+HU32,Észak-Alföld,"Public administration, defence, education, human health and social work activities [O-Q]"
+HU33,Dél-Alföld,"Public administration, defence, education, human health and social work activities [O-Q]"
+MT,Malta,"Public administration, defence, education, human health and social work activities [O-Q]"
+MT0,Malta,"Public administration, defence, education, human health and social work activities [O-Q]"
+MT00,Malta,"Public administration, defence, education, human health and social work activities [O-Q]"
+NL,Netherlands,"Public administration, defence, education, human health and social work activities [O-Q]"
+NL1,Noord-Nederland,"Public administration, defence, education, human health and social work activities [O-Q]"
+NL11,Groningen,"Public administration, defence, education, human health and social work activities [O-Q]"
+NL12,Friesland (NL),"Public administration, defence, education, human health and social work activities [O-Q]"
+NL13,Drenthe,"Public administration, defence, education, human health and social work activities [O-Q]"
+NL2,Oost-Nederland,"Public administration, defence, education, human health and social work activities [O-Q]"
+NL21,Overijssel,"Public administration, defence, education, human health and social work activities [O-Q]"
+NL22,Gelderland,"Public administration, defence, education, human health and social work activities [O-Q]"
+NL23,Flevoland,"Public administration, defence, education, human health and social work activities [O-Q]"
+NL3,West-Nederland,"Public administration, defence, education, human health and social work activities [O-Q]"
+NL31,Utrecht (NUTS 2021),Financial and insurance activities [K]
+NL32,Noord-Holland,"Public administration, defence, education, human health and social work activities [O-Q]"
+NL33,Zuid-Holland (NUTS 2021),Financial and insurance activities [K]
+NL34,Zeeland,"Public administration, defence, education, human health and social work activities [O-Q]"
+NL35,Utrecht,"Public administration, defence, education, human health and social work activities [O-Q]"
+NL36,Zuid-Holland,"Public administration, defence, education, human health and social work activities [O-Q]"
+NL4,Zuid-Nederland,"Public administration, defence, education, human health and social work activities [O-Q]"
+NL41,Noord-Brabant,"Public administration, defence, education, human health and social work activities [O-Q]"
+NL42,Limburg (NL),"Public administration, defence, education, human health and social work activities [O-Q]"
+AT,Austria,"Public administration, defence, education, human health and social work activities [O-Q]"
+AT1,Ostösterreich,"Public administration, defence, education, human health and social work activities [O-Q]"
+AT11,Burgenland,"Public administration, defence, education, human health and social work activities [O-Q]"
+AT12,Niederösterreich,"Public administration, defence, education, human health and social work activities [O-Q]"
+AT13,Wien,"Public administration, defence, education, human health and social work activities [O-Q]"
+AT2,Südösterreich,"Public administration, defence, education, human health and social work activities [O-Q]"
+AT21,Kärnten,"Public administration, defence, education, human health and social work activities [O-Q]"
+AT22,Steiermark,"Public administration, defence, education, human health and social work activities [O-Q]"
+AT3,Westösterreich,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+AT31,Oberösterreich,Industry (except construction) [B-E]
+AT32,Salzburg,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+AT33,Tirol,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+AT34,Vorarlberg,Industry (except construction) [B-E]
+PL,Poland,Industry (except construction) [B-E]
+PL2,Makroregion południowy,Industry (except construction) [B-E]
+PL21,Małopolskie,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+PL22,Śląskie,Industry (except construction) [B-E]
+PL4,Makroregion północno-zachodni,Industry (except construction) [B-E]
+PL41,Wielkopolskie,Industry (except construction) [B-E]
+PL42,Zachodniopomorskie,"Public administration, defence, education, human health and social work activities [O-Q]"
+PL43,Lubuskie,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+PL5,Makroregion południowo-zachodni,Industry (except construction) [B-E]
+PL51,Dolnośląskie,Industry (except construction) [B-E]
+PL52,Opolskie,Industry (except construction) [B-E]
+PL6,Makroregion północny,"Public administration, defence, education, human health and social work activities [O-Q]"
+PL61,Kujawsko-pomorskie,Industry (except construction) [B-E]
+PL62,Warmińsko-mazurskie,"Public administration, defence, education, human health and social work activities [O-Q]"
+PL63,Pomorskie,"Public administration, defence, education, human health and social work activities [O-Q]"
+PL7,Makroregion centralny,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+PL71,Łódzkie,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+PL72,Świętokrzyskie,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+PL8,Makroregion wschodni,"Public administration, defence, education, human health and social work activities [O-Q]"
+PL81,Lubelskie,"Public administration, defence, education, human health and social work activities [O-Q]"
+PL82,Podkarpackie,Industry (except construction) [B-E]
+PL84,Podlaskie,"Public administration, defence, education, human health and social work activities [O-Q]"
+PL9,Makroregion województwo mazowieckie,"Public administration, defence, education, human health and social work activities [O-Q]"
+PL91,Warszawski stołeczny,"Public administration, defence, education, human health and social work activities [O-Q]"
+PL92,Mazowiecki regionalny,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+PT,Portugal,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+PT1,Continente,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+PT11,Norte,Industry (except construction) [B-E]
+PT15,Algarve,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+PT16,Centro (PT) (NUTS 2021),Financial and insurance activities [K]
+PT17,Área Metropolitana de Lisboa (NUTS 2021),Financial and insurance activities [K]
+PT18,Alentejo (NUTS 2021),Financial and insurance activities [K]
+PT19,Centro (PT),"Public administration, defence, education, human health and social work activities [O-Q]"
+PT1A,Grande Lisboa,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+PT1B,Península de Setúbal,"Public administration, defence, education, human health and social work activities [O-Q]"
+PT1C,Alentejo,"Public administration, defence, education, human health and social work activities [O-Q]"
+PT1D,Oeste e Vale do Tejo,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+PT2,Região Autónoma dos Açores,"Public administration, defence, education, human health and social work activities [O-Q]"
+PT20,Região Autónoma dos Açores,"Public administration, defence, education, human health and social work activities [O-Q]"
+PT3,Região Autónoma da Madeira,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+PT30,Região Autónoma da Madeira,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+RO,Romania,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+RO1,Macroregiunea Unu,Industry (except construction) [B-E]
+RO11,Nord-Vest,Industry (except construction) [B-E]
+RO12,Centru,Industry (except construction) [B-E]
+RO2,Macroregiunea Doi,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+RO21,Nord-Est,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+RO22,Sud-Est,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+RO3,Macroregiunea Trei,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+RO31,Sud-Muntenia,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+RO32,Bucureşti-Ilfov,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+RO4,Macroregiunea Patru,Industry (except construction) [B-E]
+RO41,Sud-Vest Oltenia,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+RO42,Vest,Industry (except construction) [B-E]
+SI,Slovenia,Industry (except construction) [B-E]
+SI0,Slovenija,Industry (except construction) [B-E]
+SI03,Vzhodna Slovenija,Industry (except construction) [B-E]
+SI01,Vzhodna Slovenija (NUTS 2010),Financial and insurance activities [K]
+SI04,Zahodna Slovenija,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+SI02,Zahodna Slovenija (NUTS 2010),Financial and insurance activities [K]
+SK,Slovakia,Industry (except construction) [B-E]
+SK0,Slovensko,Industry (except construction) [B-E]
+SK01,Bratislavský kraj,"Public administration, defence, education, human health and social work activities [O-Q]"
+SK02,Západné Slovensko,Industry (except construction) [B-E]
+SK03,Stredné Slovensko,Industry (except construction) [B-E]
+SK04,Východné Slovensko,"Public administration, defence, education, human health and social work activities [O-Q]"
+FI,Finland,"Public administration, defence, education, human health and social work activities [O-Q]"
+FI1,Manner-Suomi,"Public administration, defence, education, human health and social work activities [O-Q]"
+FI19,Länsi-Suomi,"Public administration, defence, education, human health and social work activities [O-Q]"
+FI1B,Helsinki-Uusimaa,"Public administration, defence, education, human health and social work activities [O-Q]"
+FI1C,Etelä-Suomi,"Public administration, defence, education, human health and social work activities [O-Q]"
+FI1D,Pohjois- ja Itä-Suomi,"Public administration, defence, education, human health and social work activities [O-Q]"
+FI2,Åland,"Public administration, defence, education, human health and social work activities [O-Q]"
+FI20,Åland,"Public administration, defence, education, human health and social work activities [O-Q]"
+SE,Sweden,"Public administration, defence, education, human health and social work activities [O-Q]"
+SE1,Östra Sverige,"Public administration, defence, education, human health and social work activities [O-Q]"
+SE11,Stockholm,"Public administration, defence, education, human health and social work activities [O-Q]"
+SE12,Östra Mellansverige,"Public administration, defence, education, human health and social work activities [O-Q]"
+SE2,Södra Sverige,"Public administration, defence, education, human health and social work activities [O-Q]"
+SE21,Småland med öarna,"Public administration, defence, education, human health and social work activities [O-Q]"
+SE22,Sydsverige,"Public administration, defence, education, human health and social work activities [O-Q]"
+SE23,Västsverige,"Public administration, defence, education, human health and social work activities [O-Q]"
+SE3,Norra Sverige,"Public administration, defence, education, human health and social work activities [O-Q]"
+SE31,Norra Mellansverige,"Public administration, defence, education, human health and social work activities [O-Q]"
+SE32,Mellersta Norrland,"Public administration, defence, education, human health and social work activities [O-Q]"
+SE33,Övre Norrland,"Public administration, defence, education, human health and social work activities [O-Q]"
+IS,Iceland,"Public administration, defence, education, human health and social work activities [O-Q]"
+IS0,Ísland,"Public administration, defence, education, human health and social work activities [O-Q]"
+IS00,Ísland,"Public administration, defence, education, human health and social work activities [O-Q]"
+NO,Norway,"Public administration, defence, education, human health and social work activities [O-Q]"
+NO0,Norge,"Public administration, defence, education, human health and social work activities [O-Q]"
+NO01,Oslo og Akershus (statistical region 2016),Financial and insurance activities [K]
+NO02,Innlandet,"Public administration, defence, education, human health and social work activities [O-Q]"
+NO03,Sør-Østlandet (statistical region 2016),Financial and insurance activities [K]
+NO04,Agder og Rogaland (statistical region 2016),Financial and insurance activities [K]
+NO05,Vestlandet (statistical region 2016),Financial and insurance activities [K]
+NO06,Trøndelag,"Public administration, defence, education, human health and social work activities [O-Q]"
+NO07,Nord-Norge,"Public administration, defence, education, human health and social work activities [O-Q]"
+NO08,Oslo og Viken,"Public administration, defence, education, human health and social work activities [O-Q]"
+NO09,Agder og Sør-Østlandet,"Public administration, defence, education, human health and social work activities [O-Q]"
+NO0A,Vestlandet,"Public administration, defence, education, human health and social work activities [O-Q]"
+CH,Switzerland,"Public administration, defence, education, human health and social work activities [O-Q]"
+CH0,Schweiz/Suisse/Svizzera,"Public administration, defence, education, human health and social work activities [O-Q]"
+CH01,Région lémanique,"Public administration, defence, education, human health and social work activities [O-Q]"
+CH02,Espace Mittelland,"Public administration, defence, education, human health and social work activities [O-Q]"
+CH03,Nordwestschweiz,"Public administration, defence, education, human health and social work activities [O-Q]"
+CH04,Zürich,"Public administration, defence, education, human health and social work activities [O-Q]"
+CH05,Ostschweiz,"Public administration, defence, education, human health and social work activities [O-Q]"
+CH06,Zentralschweiz,"Public administration, defence, education, human health and social work activities [O-Q]"
+CH07,Ticino,"Public administration, defence, education, human health and social work activities [O-Q]"
+UK,United Kingdom,Financial and insurance activities [K]
+UKC,North East (UK) (NUTS 2021),Financial and insurance activities [K]
+UKC1,Tees Valley and Durham (NUTS 2021),Financial and insurance activities [K]
+UKC2,Northumberland and Tyne and Wear (NUTS 2021),Financial and insurance activities [K]
+UKD,North West (UK) (NUTS 2021),Financial and insurance activities [K]
+UKD1,Cumbria (NUTS 2021),Financial and insurance activities [K]
+UKD3,Greater Manchester (NUTS 2021),Financial and insurance activities [K]
+UKD4,Lancashire (NUTS 2021),Financial and insurance activities [K]
+UKD6,Cheshire (NUTS 2021),Financial and insurance activities [K]
+UKD7,Merseyside (NUTS 2021),Financial and insurance activities [K]
+UKE,Yorkshire and The Humber (NUTS 2021),Financial and insurance activities [K]
+UKE1,East Yorkshire and Northern Lincolnshire (NUTS 2021),Financial and insurance activities [K]
+UKE2,North Yorkshire (NUTS 2021),Financial and insurance activities [K]
+UKE3,South Yorkshire (NUTS 2021),Financial and insurance activities [K]
+UKE4,West Yorkshire (NUTS 2021),Financial and insurance activities [K]
+UKF,East Midlands (UK) (NUTS 2021),Financial and insurance activities [K]
+UKF1,Derbyshire and Nottinghamshire (NUTS 2021),Financial and insurance activities [K]
+UKF2,"Leicestershire, Rutland and Northamptonshire (NUTS 2021)",Financial and insurance activities [K]
+UKF3,Lincolnshire (NUTS 2021),Financial and insurance activities [K]
+UKG,West Midlands (UK) (NUTS 2021),Financial and insurance activities [K]
+UKG1,"Herefordshire, Worcestershire and Warwickshire (NUTS 2021)",Financial and insurance activities [K]
+UKG2,Shropshire and Staffordshire (NUTS 2021),Financial and insurance activities [K]
+UKG3,West Midlands (NUTS 2021),Financial and insurance activities [K]
+UKH,East of England (NUTS 2021),Financial and insurance activities [K]
+UKH1,East Anglia (NUTS 2021),Financial and insurance activities [K]
+UKH2,Bedfordshire and Hertfordshire (NUTS 2021),Financial and insurance activities [K]
+UKH3,Essex (NUTS 2021),Financial and insurance activities [K]
+UKI,London (NUTS 2021),Financial and insurance activities [K]
+UKI1,Inner London (NUTS 2010),Financial and insurance activities [K]
+UKI2,Outer London (NUTS 2010),Financial and insurance activities [K]
+UKI3,Inner London - West (NUTS 2021),Financial and insurance activities [K]
+UKI4,Inner London - East (NUTS 2021),Financial and insurance activities [K]
+UKI5,Outer London - East and North East (NUTS 2021),Financial and insurance activities [K]
+UKI6,Outer London - South (NUTS 2021),Financial and insurance activities [K]
+UKI7,Outer London - West and North West (NUTS 2021),Financial and insurance activities [K]
+UKJ,South East (UK) (NUTS 2021),Financial and insurance activities [K]
+UKJ1,"Berkshire, Buckinghamshire and Oxfordshire (NUTS 2021)",Financial and insurance activities [K]
+UKJ2,"Surrey, East and West Sussex (NUTS 2021)",Financial and insurance activities [K]
+UKJ3,Hampshire and Isle of Wight (NUTS 2021),Financial and insurance activities [K]
+UKJ4,Kent (NUTS 2021),Financial and insurance activities [K]
+UKK,South West (UK) (NUTS 2021),Financial and insurance activities [K]
+UKK1,"Gloucestershire, Wiltshire and Bristol/Bath area (NUTS 2021)",Financial and insurance activities [K]
+UKK2,Dorset and Somerset (NUTS 2021),Financial and insurance activities [K]
+UKK3,Cornwall and Isles of Scilly (NUTS 2021),Financial and insurance activities [K]
+UKK4,Devon (NUTS 2021),Financial and insurance activities [K]
+UKL,Wales (NUTS 2021),Financial and insurance activities [K]
+UKL1,West Wales and The Valleys (NUTS 2021),Financial and insurance activities [K]
+UKL2,East Wales (NUTS 2021),Financial and insurance activities [K]
+UKM,Scotland (NUTS 2021),Financial and insurance activities [K]
+UKM2,Eastern Scotland (NUTS 2013),Financial and insurance activities [K]
+UKM3,South Western Scotland (NUTS 2013),Financial and insurance activities [K]
+UKM5,North Eastern Scotland (NUTS 2021),Financial and insurance activities [K]
+UKM6,Highlands and Islands (NUTS 2021),Financial and insurance activities [K]
+UKM7,Eastern Scotland (NUTS 2021),Financial and insurance activities [K]
+UKM8,West Central Scotland (NUTS 2021),Financial and insurance activities [K]
+UKM9,Southern Scotland (NUTS 2021),Financial and insurance activities [K]
+UKN,Northern Ireland (UK) (NUTS 2021),Financial and insurance activities [K]
+UKN0,Northern Ireland (UK) (NUTS 2021),Financial and insurance activities [K]
+BA,Bosnia and Herzegovina,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+ME,Montenegro,Financial and insurance activities [K]
+ME0,Crna Gora,Financial and insurance activities [K]
+ME00,Crna Gora,Financial and insurance activities [K]
+MK,North Macedonia,Industry (except construction) [B-E]
+MK0,Severna Makedonija,Industry (except construction) [B-E]
+MK00,Severna Makedonija,Industry (except construction) [B-E]
+RS,Serbia,Industry (except construction) [B-E]
+RS1,Srbija - sever,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+RS11,Beogradski region,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+RS12,Region Vojvodine,Industry (except construction) [B-E]
+RS2,Srbija - jug,Industry (except construction) [B-E]
+RS21,Region Sumadije i Zapadne Srbije,Industry (except construction) [B-E]
+RS22,Region Juzne i Istocne Srbije,Industry (except construction) [B-E]
+TR,Türkiye,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+TR1,İstanbul,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+TR10,İstanbul,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+TR2,Batı Marmara,Industry (except construction) [B-E]
+TR21,"Tekirdağ, Edirne, Kırklareli",Industry (except construction) [B-E]
+TR22,"Balıkesir, Çanakkale","Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+TR3,Ege,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+TR31,İzmir,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+TR32,"Aydın, Denizli, Muğla","Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+TR33,"Manisa, Afyonkarahisar, Kütahya, Uşak",Industry (except construction) [B-E]
+TR4,Doğu Marmara,Industry (except construction) [B-E]
+TR41,"Bursa, Eskişehir, Bilecik",Industry (except construction) [B-E]
+TR42,"Kocaeli, Sakarya, Düzce, Bolu, Yalova",Industry (except construction) [B-E]
+TR5,Batı Anadolu,"Public administration, defence, education, human health and social work activities [O-Q]"
+TR51,Ankara,"Public administration, defence, education, human health and social work activities [O-Q]"
+TR52,"Konya, Karaman",Industry (except construction) [B-E]
+TR6,Akdeniz,"Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+TR61,"Antalya, Isparta, Burdur","Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+TR62,"Adana, Mersin","Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+TR63,"Hatay, Kahramanmaraş, Osmaniye","Wholesale and retail trade, transport, accommodation and food service activities [G-I]"
+TR7,Orta Anadolu,"Agriculture, forestry and fishing [A]"
+TR71,"Kırıkkale, Aksaray, Niğde, Nevşehir, Kırşehir","Agriculture, forestry and fishing [A]"
+TR72,"Kayseri, Sivas, Yozgat","Agriculture, forestry and fishing [A]"
+TR8,Batı Karadeniz,"Agriculture, forestry and fishing [A]"
+TR81,"Zonguldak, Karabük, Bartın",Industry (except construction) [B-E]
+TR82,"Kastamonu, Çankırı, Sinop","Agriculture, forestry and fishing [A]"
+TR83,"Samsun, Tokat, Çorum, Amasya","Agriculture, forestry and fishing [A]"
+TR9,Doğu Karadeniz,"Agriculture, forestry and fishing [A]"
+TR90,"Trabzon, Ordu, Giresun, Rize, Artvin, Gümüşhane","Agriculture, forestry and fishing [A]"
+TRA,Kuzeydoğu Anadolu,"Agriculture, forestry and fishing [A]"
+TRA1,"Erzurum, Erzincan, Bayburt","Agriculture, forestry and fishing [A]"
+TRA2,"Ağrı, Kars, Iğdır, Ardahan","Agriculture, forestry and fishing [A]"
+TRB,Ortadoğu Anadolu,"Public administration, defence, education, human health and social work activities [O-Q]"
+TRB1,"Malatya, Elazığ, Bingöl, Tunceli","Public administration, defence, education, human health and social work activities [O-Q]"
+TRB2,"Van, Muş, Bitlis, Hakkari","Public administration, defence, education, human health and social work activities [O-Q]"
+TRC,Güneydoğu Anadolu,"Public administration, defence, education, human health and social work activities [O-Q]"
+TRC1,"Gaziantep, Adıyaman, Kilis",Industry (except construction) [B-E]
+TRC2,"Şanlıurfa, Diyarbakır","Agriculture, forestry and fishing [A]"
+TRC3,"Mardin, Batman, Şırnak, Siirt","Public administration, defence, education, human health and social work activities [O-Q]"
