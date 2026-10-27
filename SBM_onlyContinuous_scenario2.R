@@ -8,9 +8,8 @@ library(progress)
 gen_scenario2 <- function(seed) {
   set.seed(seed)
   n <- 100
-  z <- rep(1:2, each = 50)                      # ground-truth blocks
+  z <- rep(1:2, each = 50)                      
   
-  ## -- undirected Bernoulli SBM, no self-loops (disassortative) --
   theta <- matrix(c(0.01, 0.10,
                     0.10, 0.01), 2, 2, byrow = TRUE)
   A  <- matrix(0L, n, n)
@@ -21,7 +20,6 @@ gen_scenario2 <- function(seed) {
   A[ij[, 2:1]] <- e
   A  <- Matrix::Matrix(A, sparse = TRUE)
   
-  ## -- 2-D Gaussian attribute, one (mu_k, Sigma_k) per block --
   mu  <- list(c(0.5, 0.5), c(2.5, 2.5))
   Sig <- list(matrix(c(0.08, 0.001, 0.001, 0.08), 2),
               matrix(c(0.07, 0.002, 0.002, 0.07), 2))
@@ -31,7 +29,6 @@ gen_scenario2 <- function(seed) {
     Xg[idx, ] <- MASS::mvrnorm(length(idx), mu[[k]], Sig[[k]])
   }
   
-  ## -- two multinomial attributes: X_c1 (3 cats), X_c2 (4 cats) --
   P1 <- rbind(c(0.80, 0.15, 0.05),          # block 1
               c(0.15, 0.80, 0.05))          # block 2
   P2 <- rbind(c(0.70, 0.15, 0.05, 0.10),    # block 1
