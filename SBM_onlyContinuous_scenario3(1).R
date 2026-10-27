@@ -9,9 +9,8 @@ library(progress)
 gen_scenario3 <- function(seed) {
   set.seed(seed)
   n <- 300
-  z <- rep(1:4, each = 75)                      # ground-truth blocks
+  z <- rep(1:4, each = 75)                      
   
-  ## -- undirected Bernoulli SBM, no self-loops --
   theta <- matrix(c(0.5,   0.5,   0.005, 0.005,
                     0.5,   0.5,   0.005, 0.005,
                     0.005, 0.005, 0.5,   0.5,
@@ -24,8 +23,6 @@ gen_scenario3 <- function(seed) {
   A[ij[, 2:1]] <- e
   A  <- Matrix::Matrix(A, sparse = TRUE)
   
-  ## -- 2-D Gaussian attribute (common Sigma across blocks) --
-  ##    blocks 1 & 4 sit low; blocks 2 & 3 sit high  -> {1,4} vs {2,3}
   mu  <- list(c(0.4, -0.5), c(2.6, 2.5), c(3.4, 2.5), c(-0.4, -0.5))
   Sig <- matrix(c(0.05, 0.001, 0.001, 0.05), 2)
   Xg  <- matrix(NA_real_, n, 2)
@@ -34,8 +31,6 @@ gen_scenario3 <- function(seed) {
     Xg[idx, ] <- MASS::mvrnorm(length(idx), mu[[k]], Sig)
   }
   
-  ## -- two multinomial attributes, both coding the {1,4} vs {2,3} split --
-  ## X_c1: 3 cats ; X_c2: 4 cats.  Rows indexed by block k = 1..4
   P1 <- rbind(c(0.90, 0.05, 0.05),          # block 1
               c(0.05, 0.90, 0.05),          # block 2
               c(0.05, 0.90, 0.05),          # block 3
